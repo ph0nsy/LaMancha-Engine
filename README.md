@@ -11,7 +11,6 @@
 
 <p align="center">
 	<img alt="2D_Tag" src="https://img.shields.io/badge/Agnostic-grey.svg?style=flat-square&colorB=454545">
-	<img alt="Agnostic_Tag" src="https://img.shields.io/badge/2D-grey.svg?style=flat-square&colorB=454545">
 	<img alt="C++_Tag" src="https://img.shields.io/badge/C++-grey.svg?style=flat-square&colorB=454545">
 	<img alt="Lightweight_Tag" src="https://img.shields.io/badge/Light Weight-grey.svg?style=flat-square&colorB=454545">
 </p>

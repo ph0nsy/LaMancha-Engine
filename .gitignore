@@ -42,8 +42,9 @@
 
 # IDEs Generated Files
 .idea/
-.geany
 .metadata/
 .vscode/
 .vs/
+
+*.geany
 *.swp
