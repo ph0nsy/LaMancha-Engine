@@ -1,26 +1,47 @@
 <p align="center">
-	<img src="./promo/images/LaMancha_Logo.png"
-		 alt="LaMancha_Logo">
+	<img alt="LaMancha_Logo" src="./promo/images/LaMancha_Logo.png">
 </p>
 
 <p align="center">
-    <a href="https://github.com/ph0nsy/LaMancha-Engine/stargazers">
-        <img src="https://img.shields.io/github/stars/ph0nsy/LaMancha-Engine.svg?style=flat-square&colorB=c41212"
-             alt="stars">
-    </a>
-    <a href="https://github.com/cocos/LaMancha-Engine/forks">
-        <img src="https://img.shields.io/github/forks/cocos/LaMancha-Engine.svg?style=flat-square&colorB=c41212"
-             alt="forks">
-    </a>
-    <a href="./LICENSE">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square&colorB=c41212"
-             alt="license">
-    </a>
+    <a target="_blank" href="https://github.com/ph0nsy/LaMancha-Engine/network"><img alt="version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
+    <a target="_blank" href="https://github.com/ph0nsy/LaMancha-Engine/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/ph0nsy/LaMancha-Engine.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
+    <a target="_blank" href="https://github.com/cocos/LaMancha-Engine/forks"><img alt="forks" src="https://img.shields.io/github/forks/ph0nsy/LaMancha-Engine.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
+    <a target="_blank" href="./LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/Agnostic-grey.svg?style=flat-square&colorB=454545"
-		 alt="TagAgnostic">
+	<img alt="2D_Tag" src="https://img.shields.io/badge/Agnostic-grey.svg?style=flat-square&colorB=454545">
+	<img alt="Agnostic_Tag" src="https://img.shields.io/badge/2D-grey.svg?style=flat-square&colorB=454545">
+	<img alt="C++_Tag" src="https://img.shields.io/badge/C++-grey.svg?style=flat-square&colorB=454545">
+	<img alt="Lightweight_Tag" src="https://img.shields.io/badge/Light Weight-grey.svg?style=flat-square&colorB=454545">
 </p>
 
-# LaMancha Engine
+## Overview
+
+## Getting Started
+
+## Technical Info
+
+You can find more on [the docs](https://github.com/ph0nsy/LaMancha-Engine/wiki/Features/).
+
+## Documentation
+
+You can find the full docs [here](https://github.com/ph0nsy/LaMancha-Engine/wiki).
+
+## FAQ
+
+### Licenses
+
+Resources created for the LaMancha Engine can be used under the following licenses:
+
+|  Resources  |    License   |
+|:------------|:------------:|
+|    Code     |      MIT     |
+|    Art      | CC BY-SA 4.0 |
+|    Audio    | CC BY-ND 4.0 |
+
+### Notes
+
+## Donate
+
+<!-- Update with Ko-Fi link -->
