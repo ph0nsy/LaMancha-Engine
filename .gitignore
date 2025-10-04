@@ -39,3 +39,11 @@
 
 # debug information files
 *.dwo
+
+# IDEs Generated Files
+.idea/
+.geany
+.metadata/
+.vscode/
+.vs/
+*.swp
