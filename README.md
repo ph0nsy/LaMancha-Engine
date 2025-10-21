@@ -21,7 +21,7 @@
 
 ## Technical Info
 
-You can find more on [the docs](https://github.com/ph0nsy/LaMancha-Engine/wiki/Features/).
+You can find more on [the docs](https://github.com/ph0nsy/LaMancha-Engine/wiki/Getting-Started#technical-information).
 
 ## Documentation
 
