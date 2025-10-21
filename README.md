@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="LaMancha_Logo" src="./promo/images/LaMancha_Logo.png">
+	<img width = 240 alt="LaMancha_Logo" src="./LaManchaEngine_Logo.svg"/> <!--src="./promo/images/LaMancha_Logo.png"> -->
 </p>
 
 <p align="center">
