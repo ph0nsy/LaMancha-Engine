@@ -1,7 +1,7 @@
-<p align="center">
-	<img width = 240 alt="LaMancha_Logo" src="./LaManchaEngine_Logo.svg"/> <!--src="./promo/images/LaMancha_Logo.png"> -->
-</p>
-
+<div align=center>
+	<center><img alt="LaMancha_Logo" src="./LaManchaEngine_Logo.svg#svgView(viewBox(35, 480, 1985, 970))" width=360 height=160/> <!--src="./promo/images/LaMancha_Logo.png"> -->
+</div>
+<br>
 <p align="center">
     <a target="_blank" href="https://github.com/ph0nsy/LaMancha-Engine/network"><img alt="version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
      <!--<a target="_blank" href="https://github.com/ph0nsy/LaMancha-Engine/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/ph0nsy/LaMancha-Engine.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>-->
