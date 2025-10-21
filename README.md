@@ -4,8 +4,8 @@
 
 <p align="center">
     <a target="_blank" href="https://github.com/ph0nsy/LaMancha-Engine/network"><img alt="version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
-    <a target="_blank" href="https://github.com/ph0nsy/LaMancha-Engine/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/ph0nsy/LaMancha-Engine.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
-    <a target="_blank" href="https://github.com/cocos/LaMancha-Engine/forks"><img alt="forks" src="https://img.shields.io/github/forks/ph0nsy/LaMancha-Engine.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
+     <!--<a target="_blank" href="https://github.com/ph0nsy/LaMancha-Engine/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/ph0nsy/LaMancha-Engine.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>-->
+     <!--<a target="_blank" href="https://github.com/cocos/LaMancha-Engine/forks"><img alt="forks" src="https://img.shields.io/github/forks/ph0nsy/LaMancha-Engine.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>-->
     <a target="_blank" href="./LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat&labelColor=888888&color=2EA967&logo=github"></a>
 </p>
 
