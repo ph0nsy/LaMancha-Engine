@@ -1,5 +1,5 @@
 <div align=center>
-	<center><img alt="LaMancha_Logo" src="./LaManchaEngine_Logo.svg#svgView(viewBox(35, 480, 1985, 970))" width=360 height=160/> <!--src="./promo/images/LaMancha_Logo.png"> -->
+	<center><img alt="LaMancha_Logo" src="./promo/LaManchaEngine_Logo.svg#svgView(viewBox(35, 480, 1985, 970))" width=360 height=160/>
 </div>
 <br>
 <p align="center">

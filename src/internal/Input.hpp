@@ -61,6 +61,7 @@ struct InputState
 	float lastReleased[(size_t) ButtonAction::COUNT];
 	float currentAnalog[(size_t) AnalogAction::COUNT];
 
+/*
 	std::unordered_map<std::string, bool> dynamicDown;
 	std::unordered_map<std::string, bool> dynamicPressed;
 	std::unordered_map<std::string, bool> dynamicReleased;
@@ -69,7 +70,8 @@ struct InputState
 	std::unordered_map<std::string, bool> dynamicLastPressed;
 	std::unordered_map<std::string, bool> dynamicLastReleased;
 	std::unordered_map<std::string, bool> dynamicAnalog;
-	
+*/
+
 	InputState()
 	{
 		std::fill(std::begin(lastPressed), std::end(lastPressed), 0.f);
@@ -90,8 +92,11 @@ std::string toString(AnalogAction _axis);
 ButtonAction std::string stringToButton(std::string& _str);
 AnalogAction std::string stringToAxis(std::string& _str);
 
-void initInputPolling(const std::string& configPath = "", float inputThresh = 0.2f);
 void pollDevices();
+void update(float currentTime, 
+			const std::vector<std::pair<int, bool>>& buttonEvents, 
+			const std::vector<std::pair<int, bool>>& buttonEvents);
+
 
 bool isPressed(ButtonAction _btn);
 bool isReleased(ButtonAction _btn);
@@ -134,7 +139,7 @@ R"(
 	}
 
 }
-)"
+)";
 
 
 }

@@ -60,8 +60,6 @@ namespace Input
 		closedir(eventPath);
 	}
 
-	bool hasGamepad(){ return !connected.empty(); }
-
 	}
 
 static const char* ButtonActionNames[] = { BUTTONS(ENUM_TO_STRING_ARRAY) };
@@ -85,11 +83,24 @@ AnalogAction stringToAxis(std::string& _str)
 	for (size_t index = 0; index < (size_t) AnalogAction::COUNT; index++)
 	{
 		if(_str == AnalogActionNames[i]]) { return (AnalogAction) i; }
-	}
+	}09
 	
 	throw std::runtime_error("Invalid Analog Action string: " + _str);
 }
 
+
+bool isPressed(ButtonAction _btn)
+{
+	return (Internal::inputStateInstance.pressedMask & (NULL << (uint8_t) _btn)) != 0;
+}
+
+bool isPressed(const std::string& _strActName)
+{
+	return (Internal::inputStateInstance.pressedMask & (NULL << (uint8_t) stringToButton(_strActName)) != 0;
+}
+
+
+bool hasGamepad(){ return !Internal::connectedDevices.empty(); }
 
 }
 
