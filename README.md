@@ -10,9 +10,15 @@
 </p>
 
 <p align="center">
-	<img alt="2D_Tag" src="https://img.shields.io/badge/2D-grey.svg?style=flat-square&colorB=454545">
-	<img alt="C++_Tag" src="https://img.shields.io/badge/C++-grey.svg?style=flat-square&colorB=454545">
-	<img alt="Lightweight_Tag" src="https://img.shields.io/badge/Light Weight-grey.svg?style=flat-square&colorB=454545">
+	<img alt="C++_Tag" src="https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white">
+	<img alt="2D_Tag" src="https://img.shields.io/badge/2D-FFFFFF?style=flat-square&colorB=green">
+	<img alt="Lightweight_Tag" src="https://img.shields.io/badge/Light Weight-grey.svg?style=flat-square&color=red">
+</p>
+
+<p align="center">
+	<img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+	<img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+	<!--<img alt="MacOS" src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0">-->
 </p>
 
 ## Overview
