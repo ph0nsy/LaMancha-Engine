@@ -28,12 +28,12 @@ version: "0.0.1"
 ## Overview
 
 <p>
-  <img src="https://img.shields.io/badge/ECS-STL--Free-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/STL--Free_ECS-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Async_Threadpool-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/OpenGL_ES_2.0+-2D_Renderer-darkgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Lightweight-slategray?style=for-the-badge">
+  <img src="https://img.shields.io/badge/2D-OpenGL_ES_2.0+-darkgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/Lua_Scripting-purple?style=for-the-badge&logo=lua&logoColor=white">
   <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/Lightweight-slategray?style=for-the-badge">
 </p>
 
 <p>
