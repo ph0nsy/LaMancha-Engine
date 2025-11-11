@@ -17,11 +17,13 @@ version: "0.0.1"
 >
 > The content below represents an early layout and may evolve in future versions. The content may be outdated or include sections that have not been implemented yet.
 
+<br>
+
 <div align=center>
 	<img alt="LaMancha_Logo" src="./promo/LaManchaEngine_Logo.svg#svgView(viewBox(35, 480, 1985, 970))" width=360 height=160/>
 </div>
 
-<br>
+<br><br>
 
 > LaMancha Engine is a lightweight, open-source 2D game engine written in C++17 with Lua scripting, featuring an ECS architecture, OpenGL ES rendering, and cross-platform compatibility for Linux, Windows, and low-end handheld devices (**R36S**). It allows indie developers to create fast, portable 2D games with minimal dependencies and full cross-platform support.
 
