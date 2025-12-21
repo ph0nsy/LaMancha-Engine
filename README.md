@@ -20,7 +20,7 @@ version: "0.0.1"
 <br>
 
 <div align=center>
-	<img alt="LaMancha_Logo" src="./promo/LaManchaEngine_Logo.svg#svgView(viewBox(35, 480, 1985, 970))" width=360 height=160/>
+	<img alt="LaMancha_Logo" src="./LaManchaPromo/LaManchaEngine_Logo.svg#svgView(viewBox(35, 480, 1985, 970))" width=360 height=160/>
 </div>
 
 <br><br>
