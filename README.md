@@ -25,15 +25,15 @@ version: "0.0.1"
 
 <br><br>
 
-> LaMancha Engine is a lightweight, open-source 2D game engine written in C++17 with Lua scripting, featuring an ECS architecture, OpenGL ES rendering, and cross-platform compatibility for Linux, Windows, and low-end handheld devices (**R36S**). It allows indie developers to create fast, portable 2D games with minimal dependencies and full cross-platform support.
+> LaMancha Engine is a ***lightweight, open-source 2D game engine*** written in C++17 with Lua scripting, featuring an ECS architecture, OpenGL/OpenGL ES rendering, and cross-platform compatibility for Linux, Windows, and low-end handheld devices (**R36S**). It allows indie developers to create fast, portable 2D games with minimal dependencies and full cross-platform support.
 
 ## Overview
 
 <p>
   <img src="https://img.shields.io/badge/STL--Free_ECS-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Async_Threadpool-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Lightweight-slategray?style=for-the-badge">
   <img src="https://img.shields.io/badge/2D-OpenGL_ES_2.0+-darkgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/2D-OpenGL_3.2+-darkgreen?style=for-the-badge">
   <img src="https://img.shields.io/badge/Lua_Scripting-purple?style=for-the-badge&logo=lua&logoColor=white">
   <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
 </p>
@@ -108,9 +108,11 @@ LaMancha-Engine/
 
 **A:** Yes, engine provides mechanics, not rules — all gameplay logic is added in `/Game/Systems/` (<img alt="_C++_" align=center src="https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white"/>) or `/Game/Scripts/` (<img alt="_Lua_" align=center src="https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white"/>).
 
+<!--
 **Q: How lightweight is it?**
 
-A: Event-driven architecture reduces CPU overhead and simplifies game logic. INI-based configuration keeps memory footprint low. Typical runtime footprint: ~30–50 MB on **R36S**; engine startup <1 second cold boot, <300ms warm boot.
+A: Typical runtime footprint: ~30–50 MB on **R36S**; engine startup <1 second cold boot, <300ms warm boot.
+-->
 
 **Q: Is <img alt=_Lua_ align=center src='https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white'/> mandatory?**
 
