@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.15)
-project(ExampleProject VERSION 0.0.1)
 
 # > Read Build Configuration INI <
 # ================================
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/../../CMake/ReadINI.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/CMake/ReadINI.cmake)
 
 message(STATUS "> Reading config/build.ini ...")
 
@@ -12,6 +11,8 @@ read_ini_file(
     "${CMAKE_CURRENT_SOURCE_DIR}/config/build.ini" 
     "BUILD"
 )
+
+project(PROJECT_NAME VERSION PROJECT_NAME)
 
 # Extract configuration
 set(TARGET_PLATFORM ${BUILD_TARGET_PLATFORM})
@@ -73,7 +74,7 @@ message(STATUS "Source files found: ${PROJECT_SOURCES}")
 # =================================
 
 # Point to appropriate engine build
-set(ENGINE_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../build-${TARGET_PLATFORM}")
+set(ENGINE_BUILD_DIR "${ENGINE_DIR}/bin-${TARGET_PLATFORM}")
 
 if(NOT EXISTS "${ENGINE_BUILD_DIR}")
     message(FATAL_ERROR 
@@ -87,8 +88,8 @@ endif()
 message(STATUS "> Exporting Engine...")
 add_library(LaManchaEngine STATIC IMPORTED)
 set_target_properties(LaManchaEngine PROPERTIES
-    IMPORTED_LOCATION "${ENGINE_BUILD_DIR}/lib/LaManchaEngine.a"
-    INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_CURRENT_SOURCE_DIR}/../../EngineSource"
+    IMPORTED_LOCATION "${ENGINE_BUILD_DIR}/bin/LaManchaEngine.a"
+    INTERFACE_INCLUDE_DIRECTORIES "${ENGINE_DIR}/EngineSource"
 )
 
 # > Platform-Specific Dependencies <

@@ -1,0 +1,1663 @@
+LaMancha-Engine (tree /f /a > tree.txt)
+|   .gitignore
+|   CMakeLists.txt
+|   LICENSE
+|   README.md
+|   tree.txt
+|   
++---engineSource
+|   |   CMakeLists.txt
+|   |   Credits.txt
+|   |   main.cpp
+|   |   
+|   +---config
+|   |   |   iniReader.h
+|   |   |   
+|   |   \---icons
+|   |       +---linux
+|   |       |       icon_128.png
+|   |       |       icon_256.png
+|   |       |       icon_32.png
+|   |       |       icon_64.png
+|   |       |       
+|   |       +---macOS
+|   |       |       Icon.icns
+|   |       |       
+|   |       \---windows
+|   |               icon.ico
+|   |               
+|   +---core
+|   |   |   mathLM.h
+|   |   |   typesLM.h
+|   |   |   
+|   |   +---ai
+|   |   |       behaviorTree.h
+|   |   |       
+|   |   +---assets
+|   |   |   |   assetManager.h
+|   |   |   |   shaderLoader.h
+|   |   |   |   textureLoader.h
+|   |   |   |   
+|   |   |   \---internal
+|   |   |       +---font
+|   |   |       |       GoogleSansCode-Bold.ttf
+|   |   |       |       GoogleSansCode-Italic.ttf
+|   |   |       |       GoogleSansCode-Regular.ttf
+|   |   |       |       OFL.txt
+|   |   |       |       
+|   |   |       \---ui
+|   |   |               CursorTilemap.png
+|   |   |               GeneralIconsBlack.png
+|   |   |               GeneralIconsWhite.png
+|   |   |               input.ini
+|   |   |               InputsBlackTilemap.png
+|   |   |               InputsColorTilemap.png
+|   |   |               InputsWhiteTilemap.png
+|   |   |               LicenseList.txt
+|   |   |               
+|   |   +---audio
+|   |   |   |   audioManager.h
+|   |   |   |   midiPlayer.h
+|   |   |   |   
+|   |   |   \---internal
+|   |   |       \---ui
+|   |   |               back_004.ogg
+|   |   |               bong_001.ogg
+|   |   |               click_002.ogg
+|   |   |               close_001.ogg
+|   |   |               confirmation_001.ogg
+|   |   |               drop_001.ogg
+|   |   |               error_004.ogg
+|   |   |               glass_002.ogg
+|   |   |               glitch_003.ogg
+|   |   |               License.txt
+|   |   |               maximize_009.ogg
+|   |   |               minimize_009.ogg
+|   |   |               open_001.ogg
+|   |   |               pluck_001.ogg
+|   |   |               question_003.ogg
+|   |   |               scratch_001.ogg
+|   |   |               scratch_003.ogg
+|   |   |               scroll_004.ogg
+|   |   |               select_001.ogg
+|   |   |               select_002.ogg
+|   |   |               switch_001.ogg
+|   |   |               switch_002.ogg
+|   |   |               tick_001.ogg
+|   |   |               toggle_001.ogg
+|   |   |               toggle_004.ogg
+|   |   |               
+|   |   +---components
+|   |   |       transform.h
+|   |   |       
+|   |   +---ecs
+|   |   |       component.h
+|   |   |       entity.h
+|   |   |       system.h
+|   |   |       world.h
+|   |   |       
+|   |   +---graphics
+|   |   |       renderer.h
+|   |   |       
+|   |   +---input
+|   |   |       inputManager.h
+|   |   |       
+|   |   +---memory
+|   |   |       arena.h
+|   |   |       frame.h
+|   |   |       garbageCollector.h
+|   |   |       pool.h
+|   |   |       zone.h
+|   |   |       
+|   |   +---physics
+|   |   |       collision.h
+|   |   |       
+|   |   \---ui
+|   +---deps
+|   |   |   CMakeLists.txt
+|   |   |   dependencies.ini
+|   |   |   doctest.h
+|   |   |   dr_flac.h
+|   |   |   dr_mp3.h
+|   |   |   dr_wav.h
+|   |   |   glad.c
+|   |   |   glad.h
+|   |   |   ini.c
+|   |   |   ini.h
+|   |   |   INIReader.cpp
+|   |   |   INIReader.h
+|   |   |   log.c
+|   |   |   log.h
+|   |   |   lz4.c
+|   |   |   lz4.h
+|   |   |   miniz.c
+|   |   |   miniz.h
+|   |   |   nanobench.h
+|   |   |   stb_image.h
+|   |   |   stb_truetype.h
+|   |   |   tinycthread.c
+|   |   |   tinycthread.h
+|   |   |   tinyfiledialogs.c
+|   |   |   tinyfiledialogs.h
+|   |   |   
+|   |   +---glfw
+|   |   |   |   CMakeLists.txt
+|   |   |   |   CONTRIBUTORS.md
+|   |   |   |   LICENSE.md
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---CMake
+|   |   |   |   |   cmake_uninstall.cmake.in
+|   |   |   |   |   GenerateMappings.cmake
+|   |   |   |   |   glfw3.pc.in
+|   |   |   |   |   glfw3Config.cmake.in
+|   |   |   |   |   i686-w64-mingw32-clang.cmake
+|   |   |   |   |   i686-w64-mingw32.cmake
+|   |   |   |   |   Info.plist.in
+|   |   |   |   |   x86_64-w64-mingw32-clang.cmake
+|   |   |   |   |   x86_64-w64-mingw32.cmake
+|   |   |   |   |   
+|   |   |   |   \---modules
+|   |   |   |           FindEpollShim.cmake
+|   |   |   |           FindOSMesa.cmake
+|   |   |   |           
+|   |   |   +---deps
+|   |   |   |   |   getopt.c
+|   |   |   |   |   getopt.h
+|   |   |   |   |   linmath.h
+|   |   |   |   |   nuklear.h
+|   |   |   |   |   nuklear_glfw_gl2.h
+|   |   |   |   |   stb_image_write.h
+|   |   |   |   |   tinycthread.c
+|   |   |   |   |   tinycthread.h
+|   |   |   |   |   
+|   |   |   |   +---glad
+|   |   |   |   |       gl.h
+|   |   |   |   |       gles2.h
+|   |   |   |   |       vulkan.h
+|   |   |   |   |       
+|   |   |   |   +---mingw
+|   |   |   |   |       dinput.h
+|   |   |   |   |       xinput.h
+|   |   |   |   |       _mingw_dxhelper.h
+|   |   |   |   |       
+|   |   |   |   \---wayland
+|   |   |   |           fractional-scale-v1.xml
+|   |   |   |           idle-inhibit-unstable-v1.xml
+|   |   |   |           pointer-constraints-unstable-v1.xml
+|   |   |   |           relative-pointer-unstable-v1.xml
+|   |   |   |           viewporter.xml
+|   |   |   |           wayland.xml
+|   |   |   |           xdg-activation-v1.xml
+|   |   |   |           xdg-decoration-unstable-v1.xml
+|   |   |   |           xdg-shell.xml
+|   |   |   |           
+|   |   |   +---examples
+|   |   |   |       boing.c
+|   |   |   |       CMakeLists.txt
+|   |   |   |       gears.c
+|   |   |   |       glfw.icns
+|   |   |   |       glfw.ico
+|   |   |   |       glfw.rc
+|   |   |   |       heightmap.c
+|   |   |   |       offscreen.c
+|   |   |   |       particles.c
+|   |   |   |       sharing.c
+|   |   |   |       splitview.c
+|   |   |   |       triangle-opengl.c
+|   |   |   |       triangle-opengles.c
+|   |   |   |       wave.c
+|   |   |   |       windows.c
+|   |   |   |       
+|   |   |   +---include
+|   |   |   |   \---GLFW
+|   |   |   |           glfw3.h
+|   |   |   |           glfw3native.h
+|   |   |   |           
+|   |   |   +---src
+|   |   |   |       CMakeLists.txt
+|   |   |   |       cocoa_init.m
+|   |   |   |       cocoa_joystick.h
+|   |   |   |       cocoa_joystick.m
+|   |   |   |       cocoa_monitor.m
+|   |   |   |       cocoa_platform.h
+|   |   |   |       cocoa_time.c
+|   |   |   |       cocoa_time.h
+|   |   |   |       cocoa_window.m
+|   |   |   |       context.c
+|   |   |   |       egl_context.c
+|   |   |   |       glfw.rc.in
+|   |   |   |       glx_context.c
+|   |   |   |       init.c
+|   |   |   |       input.c
+|   |   |   |       internal.h
+|   |   |   |       linux_joystick.c
+|   |   |   |       linux_joystick.h
+|   |   |   |       mappings.h
+|   |   |   |       mappings.h.in
+|   |   |   |       monitor.c
+|   |   |   |       nsgl_context.m
+|   |   |   |       null_init.c
+|   |   |   |       null_joystick.c
+|   |   |   |       null_joystick.h
+|   |   |   |       null_monitor.c
+|   |   |   |       null_platform.h
+|   |   |   |       null_window.c
+|   |   |   |       osmesa_context.c
+|   |   |   |       platform.c
+|   |   |   |       platform.h
+|   |   |   |       posix_module.c
+|   |   |   |       posix_poll.c
+|   |   |   |       posix_poll.h
+|   |   |   |       posix_thread.c
+|   |   |   |       posix_thread.h
+|   |   |   |       posix_time.c
+|   |   |   |       posix_time.h
+|   |   |   |       vulkan.c
+|   |   |   |       wgl_context.c
+|   |   |   |       win32_init.c
+|   |   |   |       win32_joystick.c
+|   |   |   |       win32_joystick.h
+|   |   |   |       win32_module.c
+|   |   |   |       win32_monitor.c
+|   |   |   |       win32_platform.h
+|   |   |   |       win32_thread.c
+|   |   |   |       win32_thread.h
+|   |   |   |       win32_time.c
+|   |   |   |       win32_time.h
+|   |   |   |       win32_window.c
+|   |   |   |       window.c
+|   |   |   |       wl_init.c
+|   |   |   |       wl_monitor.c
+|   |   |   |       wl_platform.h
+|   |   |   |       wl_window.c
+|   |   |   |       x11_init.c
+|   |   |   |       x11_monitor.c
+|   |   |   |       x11_platform.h
+|   |   |   |       x11_window.c
+|   |   |   |       xkb_unicode.c
+|   |   |   |       xkb_unicode.h
+|   |   |   |       
+|   |   |   \---tests
+|   |   |           allocator.c
+|   |   |           clipboard.c
+|   |   |           CMakeLists.txt
+|   |   |           cursor.c
+|   |   |           empty.c
+|   |   |           events.c
+|   |   |           gamma.c
+|   |   |           glfwinfo.c
+|   |   |           icon.c
+|   |   |           iconify.c
+|   |   |           inputlag.c
+|   |   |           joysticks.c
+|   |   |           monitors.c
+|   |   |           msaa.c
+|   |   |           reopen.c
+|   |   |           tearing.c
+|   |   |           threads.c
+|   |   |           timeout.c
+|   |   |           title.c
+|   |   |           triangle-vulkan.c
+|   |   |           window.c
+|   |   |           
+|   |   +---glm
+|   |   |   |   common.hpp
+|   |   |   |   exponential.hpp
+|   |   |   |   ext.hpp
+|   |   |   |   fwd.hpp
+|   |   |   |   geometric.hpp
+|   |   |   |   glm.hpp
+|   |   |   |   integer.hpp
+|   |   |   |   mat2x2.hpp
+|   |   |   |   mat2x3.hpp
+|   |   |   |   mat2x4.hpp
+|   |   |   |   mat3x2.hpp
+|   |   |   |   mat3x3.hpp
+|   |   |   |   mat3x4.hpp
+|   |   |   |   mat4x2.hpp
+|   |   |   |   mat4x3.hpp
+|   |   |   |   mat4x4.hpp
+|   |   |   |   matrix.hpp
+|   |   |   |   packing.hpp
+|   |   |   |   trigonometric.hpp
+|   |   |   |   vec2.hpp
+|   |   |   |   vec3.hpp
+|   |   |   |   vec4.hpp
+|   |   |   |   vector_relational.hpp
+|   |   |   |   
+|   |   |   +---detail
+|   |   |   |       dummy.cpp
+|   |   |   |       func_common.hpp
+|   |   |   |       func_common.inl
+|   |   |   |       func_common_simd.inl
+|   |   |   |       func_exponential.hpp
+|   |   |   |       func_exponential.inl
+|   |   |   |       func_exponential_simd.inl
+|   |   |   |       func_geometric.hpp
+|   |   |   |       func_geometric.inl
+|   |   |   |       func_geometric_simd.inl
+|   |   |   |       func_integer.hpp
+|   |   |   |       func_integer.inl
+|   |   |   |       func_integer_simd.inl
+|   |   |   |       func_matrix.hpp
+|   |   |   |       func_matrix.inl
+|   |   |   |       func_matrix_simd.inl
+|   |   |   |       func_packing.hpp
+|   |   |   |       func_packing.inl
+|   |   |   |       func_packing_simd.inl
+|   |   |   |       func_trigonometric.hpp
+|   |   |   |       func_trigonometric.inl
+|   |   |   |       func_trigonometric_simd.inl
+|   |   |   |       func_vector_relational.hpp
+|   |   |   |       func_vector_relational.inl
+|   |   |   |       func_vector_relational_simd.inl
+|   |   |   |       glm.cpp
+|   |   |   |       precision.hpp
+|   |   |   |       setup.hpp
+|   |   |   |       type_float.hpp
+|   |   |   |       type_gentype.hpp
+|   |   |   |       type_gentype.inl
+|   |   |   |       type_half.hpp
+|   |   |   |       type_half.inl
+|   |   |   |       type_int.hpp
+|   |   |   |       type_mat.hpp
+|   |   |   |       type_mat.inl
+|   |   |   |       type_mat2x2.hpp
+|   |   |   |       type_mat2x2.inl
+|   |   |   |       type_mat2x3.hpp
+|   |   |   |       type_mat2x3.inl
+|   |   |   |       type_mat2x4.hpp
+|   |   |   |       type_mat2x4.inl
+|   |   |   |       type_mat3x2.hpp
+|   |   |   |       type_mat3x2.inl
+|   |   |   |       type_mat3x3.hpp
+|   |   |   |       type_mat3x3.inl
+|   |   |   |       type_mat3x4.hpp
+|   |   |   |       type_mat3x4.inl
+|   |   |   |       type_mat4x2.hpp
+|   |   |   |       type_mat4x2.inl
+|   |   |   |       type_mat4x3.hpp
+|   |   |   |       type_mat4x3.inl
+|   |   |   |       type_mat4x4.hpp
+|   |   |   |       type_mat4x4.inl
+|   |   |   |       type_mat4x4_simd.inl
+|   |   |   |       type_vec.hpp
+|   |   |   |       type_vec.inl
+|   |   |   |       type_vec1.hpp
+|   |   |   |       type_vec1.inl
+|   |   |   |       type_vec2.hpp
+|   |   |   |       type_vec2.inl
+|   |   |   |       type_vec3.hpp
+|   |   |   |       type_vec3.inl
+|   |   |   |       type_vec4.hpp
+|   |   |   |       type_vec4.inl
+|   |   |   |       type_vec4_simd.inl
+|   |   |   |       _features.hpp
+|   |   |   |       _fixes.hpp
+|   |   |   |       _noise.hpp
+|   |   |   |       _swizzle.hpp
+|   |   |   |       _swizzle_func.hpp
+|   |   |   |       _vectorize.hpp
+|   |   |   |       
+|   |   |   +---gtc
+|   |   |   |       bitfield.hpp
+|   |   |   |       bitfield.inl
+|   |   |   |       color_encoding.inl
+|   |   |   |       color_space.hpp
+|   |   |   |       color_space.inl
+|   |   |   |       constants.hpp
+|   |   |   |       constants.inl
+|   |   |   |       epsilon.hpp
+|   |   |   |       epsilon.inl
+|   |   |   |       functions.hpp
+|   |   |   |       functions.inl
+|   |   |   |       integer.hpp
+|   |   |   |       integer.inl
+|   |   |   |       matrix_access.hpp
+|   |   |   |       matrix_access.inl
+|   |   |   |       matrix_integer.hpp
+|   |   |   |       matrix_inverse.hpp
+|   |   |   |       matrix_inverse.inl
+|   |   |   |       matrix_transform.hpp
+|   |   |   |       matrix_transform.inl
+|   |   |   |       noise.hpp
+|   |   |   |       noise.inl
+|   |   |   |       packing.hpp
+|   |   |   |       packing.inl
+|   |   |   |       quaternion.hpp
+|   |   |   |       quaternion.inl
+|   |   |   |       quaternion_simd.inl
+|   |   |   |       random.hpp
+|   |   |   |       random.inl
+|   |   |   |       reciprocal.hpp
+|   |   |   |       reciprocal.inl
+|   |   |   |       round.hpp
+|   |   |   |       round.inl
+|   |   |   |       type_aligned.hpp
+|   |   |   |       type_precision.hpp
+|   |   |   |       type_precision.inl
+|   |   |   |       type_ptr.hpp
+|   |   |   |       type_ptr.inl
+|   |   |   |       ulp.hpp
+|   |   |   |       ulp.inl
+|   |   |   |       vec1.hpp
+|   |   |   |       vec1.inl
+|   |   |   |       
+|   |   |   +---gtx
+|   |   |   |       associated_min_max.hpp
+|   |   |   |       associated_min_max.inl
+|   |   |   |       bit.hpp
+|   |   |   |       bit.inl
+|   |   |   |       closest_point.hpp
+|   |   |   |       closest_point.inl
+|   |   |   |       color_space.hpp
+|   |   |   |       color_space.inl
+|   |   |   |       color_space_YCoCg.hpp
+|   |   |   |       color_space_YCoCg.inl
+|   |   |   |       common.hpp
+|   |   |   |       common.inl
+|   |   |   |       compatibility.hpp
+|   |   |   |       compatibility.inl
+|   |   |   |       component_wise.hpp
+|   |   |   |       component_wise.inl
+|   |   |   |       dual_quaternion.hpp
+|   |   |   |       dual_quaternion.inl
+|   |   |   |       euler_angles.hpp
+|   |   |   |       euler_angles.inl
+|   |   |   |       extend.hpp
+|   |   |   |       extend.inl
+|   |   |   |       extended_min_max.hpp
+|   |   |   |       extended_min_max.inl
+|   |   |   |       fast_exponential.hpp
+|   |   |   |       fast_exponential.inl
+|   |   |   |       fast_square_root.hpp
+|   |   |   |       fast_square_root.inl
+|   |   |   |       fast_trigonometry.hpp
+|   |   |   |       fast_trigonometry.inl
+|   |   |   |       float_notmalize.inl
+|   |   |   |       gradient_paint.hpp
+|   |   |   |       gradient_paint.inl
+|   |   |   |       handed_coordinate_space.hpp
+|   |   |   |       handed_coordinate_space.inl
+|   |   |   |       hash.hpp
+|   |   |   |       hash.inl
+|   |   |   |       integer.hpp
+|   |   |   |       integer.inl
+|   |   |   |       intersect.hpp
+|   |   |   |       intersect.inl
+|   |   |   |       io.hpp
+|   |   |   |       io.inl
+|   |   |   |       log_base.hpp
+|   |   |   |       log_base.inl
+|   |   |   |       matrix_cross_product.hpp
+|   |   |   |       matrix_cross_product.inl
+|   |   |   |       matrix_decompose.hpp
+|   |   |   |       matrix_decompose.inl
+|   |   |   |       matrix_interpolation.hpp
+|   |   |   |       matrix_interpolation.inl
+|   |   |   |       matrix_major_storage.hpp
+|   |   |   |       matrix_major_storage.inl
+|   |   |   |       matrix_operation.hpp
+|   |   |   |       matrix_operation.inl
+|   |   |   |       matrix_query.hpp
+|   |   |   |       matrix_query.inl
+|   |   |   |       matrix_transform_2d.hpp
+|   |   |   |       matrix_transform_2d.inl
+|   |   |   |       mixed_product.hpp
+|   |   |   |       mixed_product.inl
+|   |   |   |       norm.hpp
+|   |   |   |       norm.inl
+|   |   |   |       normal.hpp
+|   |   |   |       normal.inl
+|   |   |   |       normalize_dot.hpp
+|   |   |   |       normalize_dot.inl
+|   |   |   |       number_precision.hpp
+|   |   |   |       number_precision.inl
+|   |   |   |       optimum_pow.hpp
+|   |   |   |       optimum_pow.inl
+|   |   |   |       orthonormalize.hpp
+|   |   |   |       orthonormalize.inl
+|   |   |   |       perpendicular.hpp
+|   |   |   |       perpendicular.inl
+|   |   |   |       polar_coordinates.hpp
+|   |   |   |       polar_coordinates.inl
+|   |   |   |       projection.hpp
+|   |   |   |       projection.inl
+|   |   |   |       quaternion.hpp
+|   |   |   |       quaternion.inl
+|   |   |   |       range.hpp
+|   |   |   |       raw_data.hpp
+|   |   |   |       raw_data.inl
+|   |   |   |       rotate_normalized_axis.hpp
+|   |   |   |       rotate_normalized_axis.inl
+|   |   |   |       rotate_vector.hpp
+|   |   |   |       rotate_vector.inl
+|   |   |   |       scalar_multiplication.hpp
+|   |   |   |       scalar_relational.hpp
+|   |   |   |       scalar_relational.inl
+|   |   |   |       spline.hpp
+|   |   |   |       spline.inl
+|   |   |   |       std_based_type.hpp
+|   |   |   |       std_based_type.inl
+|   |   |   |       string_cast.hpp
+|   |   |   |       string_cast.inl
+|   |   |   |       transform.hpp
+|   |   |   |       transform.inl
+|   |   |   |       transform2.hpp
+|   |   |   |       transform2.inl
+|   |   |   |       type_aligned.hpp
+|   |   |   |       type_aligned.inl
+|   |   |   |       type_trait.hpp
+|   |   |   |       type_trait.inl
+|   |   |   |       vector_angle.hpp
+|   |   |   |       vector_angle.inl
+|   |   |   |       vector_query.hpp
+|   |   |   |       vector_query.inl
+|   |   |   |       wrap.hpp
+|   |   |   |       wrap.inl
+|   |   |   |       
+|   |   |   \---simd
+|   |   |           common.h
+|   |   |           exponential.h
+|   |   |           geometric.h
+|   |   |           integer.h
+|   |   |           matrix.h
+|   |   |           packing.h
+|   |   |           platform.h
+|   |   |           trigonometric.h
+|   |   |           vector_relational.h
+|   |   |           
+|   |   +---imgui
+|   |   |   |   .editorconfig
+|   |   |   |   .gitattributes
+|   |   |   |   .gitignore
+|   |   |   |   imconfig.h
+|   |   |   |   imgui.cpp
+|   |   |   |   imgui.h
+|   |   |   |   imgui_demo.cpp
+|   |   |   |   imgui_draw.cpp
+|   |   |   |   imgui_internal.h
+|   |   |   |   imgui_tables.cpp
+|   |   |   |   imgui_widgets.cpp
+|   |   |   |   imstb_rectpack.h
+|   |   |   |   imstb_textedit.h
+|   |   |   |   imstb_truetype.h
+|   |   |   |   LICENSE.txt
+|   |   |   |   
+|   |   |   +---backends
+|   |   |   |   |   imgui_impl_allegro5.cpp
+|   |   |   |   |   imgui_impl_allegro5.h
+|   |   |   |   |   imgui_impl_android.cpp
+|   |   |   |   |   imgui_impl_android.h
+|   |   |   |   |   imgui_impl_dx10.cpp
+|   |   |   |   |   imgui_impl_dx10.h
+|   |   |   |   |   imgui_impl_dx11.cpp
+|   |   |   |   |   imgui_impl_dx11.h
+|   |   |   |   |   imgui_impl_dx12.cpp
+|   |   |   |   |   imgui_impl_dx12.h
+|   |   |   |   |   imgui_impl_dx9.cpp
+|   |   |   |   |   imgui_impl_dx9.h
+|   |   |   |   |   imgui_impl_glfw.cpp
+|   |   |   |   |   imgui_impl_glfw.h
+|   |   |   |   |   imgui_impl_glut.cpp
+|   |   |   |   |   imgui_impl_glut.h
+|   |   |   |   |   imgui_impl_metal.h
+|   |   |   |   |   imgui_impl_metal.mm
+|   |   |   |   |   imgui_impl_null.cpp
+|   |   |   |   |   imgui_impl_null.h
+|   |   |   |   |   imgui_impl_opengl2.cpp
+|   |   |   |   |   imgui_impl_opengl2.h
+|   |   |   |   |   imgui_impl_opengl3.cpp
+|   |   |   |   |   imgui_impl_opengl3.h
+|   |   |   |   |   imgui_impl_opengl3_loader.h
+|   |   |   |   |   imgui_impl_osx.h
+|   |   |   |   |   imgui_impl_osx.mm
+|   |   |   |   |   imgui_impl_sdl2.cpp
+|   |   |   |   |   imgui_impl_sdl2.h
+|   |   |   |   |   imgui_impl_sdl3.cpp
+|   |   |   |   |   imgui_impl_sdl3.h
+|   |   |   |   |   imgui_impl_sdlgpu3.cpp
+|   |   |   |   |   imgui_impl_sdlgpu3.h
+|   |   |   |   |   imgui_impl_sdlgpu3_shaders.h
+|   |   |   |   |   imgui_impl_sdlrenderer2.cpp
+|   |   |   |   |   imgui_impl_sdlrenderer2.h
+|   |   |   |   |   imgui_impl_sdlrenderer3.cpp
+|   |   |   |   |   imgui_impl_sdlrenderer3.h
+|   |   |   |   |   imgui_impl_vulkan.cpp
+|   |   |   |   |   imgui_impl_vulkan.h
+|   |   |   |   |   imgui_impl_wgpu.cpp
+|   |   |   |   |   imgui_impl_wgpu.h
+|   |   |   |   |   imgui_impl_win32.cpp
+|   |   |   |   |   imgui_impl_win32.h
+|   |   |   |   |   
+|   |   |   |   +---sdlgpu3
+|   |   |   |   |       build_instructions.txt
+|   |   |   |   |       shader.frag
+|   |   |   |   |       shader.vert
+|   |   |   |   |       
+|   |   |   |   \---vulkan
+|   |   |   |           build_instructions.txt
+|   |   |   |           generate_spv.sh
+|   |   |   |           glsl_shader.frag
+|   |   |   |           glsl_shader.vert
+|   |   |   |           
+|   |   |   +---docs
+|   |   |   |       BACKENDS.md
+|   |   |   |       CHANGELOG.txt
+|   |   |   |       CONTRIBUTING.md
+|   |   |   |       EXAMPLES.md
+|   |   |   |       FAQ.md
+|   |   |   |       FONTS.md
+|   |   |   |       README.md
+|   |   |   |       TODO.txt
+|   |   |   |       
+|   |   |   +---examples
+|   |   |   |   |   imgui_examples.sln
+|   |   |   |   |   README.txt
+|   |   |   |   |   
+|   |   |   |   +---example_allegro5
+|   |   |   |   |       example_allegro5.vcxproj
+|   |   |   |   |       example_allegro5.vcxproj.filters
+|   |   |   |   |       imconfig_allegro5.h
+|   |   |   |   |       main.cpp
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_android_opengl3
+|   |   |   |   |   |   CMakeLists.txt
+|   |   |   |   |   |   main.cpp
+|   |   |   |   |   |   
+|   |   |   |   |   \---android
+|   |   |   |   |       |   .gitignore
+|   |   |   |   |       |   build.gradle
+|   |   |   |   |       |   settings.gradle
+|   |   |   |   |       |   
+|   |   |   |   |       +---app
+|   |   |   |   |       |   |   build.gradle
+|   |   |   |   |       |   |   
+|   |   |   |   |       |   \---src
+|   |   |   |   |       |       \---main
+|   |   |   |   |       |           |   AndroidManifest.xml
+|   |   |   |   |       |           |   
+|   |   |   |   |       |           \---java
+|   |   |   |   |       |                   MainActivity.kt
+|   |   |   |   |       |                   
+|   |   |   |   |       \---gradle
+|   |   |   |   |               libs.versions.toml
+|   |   |   |   |               
+|   |   |   |   +---example_apple_metal
+|   |   |   |   |   |   main.mm
+|   |   |   |   |   |   Makefile
+|   |   |   |   |   |   README.md
+|   |   |   |   |   |   
+|   |   |   |   |   +---example_apple_metal.xcodeproj
+|   |   |   |   |   |       project.pbxproj
+|   |   |   |   |   |       
+|   |   |   |   |   +---iOS
+|   |   |   |   |   |       Info-iOS.plist
+|   |   |   |   |   |       LaunchScreen.storyboard
+|   |   |   |   |   |       
+|   |   |   |   |   \---macOS
+|   |   |   |   |           Info-macOS.plist
+|   |   |   |   |           MainMenu.storyboard
+|   |   |   |   |           
+|   |   |   |   +---example_apple_opengl2
+|   |   |   |   |   |   main.mm
+|   |   |   |   |   |   Makefile
+|   |   |   |   |   |   
+|   |   |   |   |   \---example_apple_opengl2.xcodeproj
+|   |   |   |   |           project.pbxproj
+|   |   |   |   |           
+|   |   |   |   +---example_glfw_metal
+|   |   |   |   |       main.mm
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_glfw_opengl2
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_glfw_opengl2.vcxproj
+|   |   |   |   |       example_glfw_opengl2.vcxproj.filters
+|   |   |   |   |       example_glfw_opengl2.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_glfw_opengl3
+|   |   |   |   |   |   build_win32.bat
+|   |   |   |   |   |   example_glfw_opengl3.vcxproj
+|   |   |   |   |   |   example_glfw_opengl3.vcxproj.filters
+|   |   |   |   |   |   example_glfw_opengl3.vcxproj.user
+|   |   |   |   |   |   imgui.ini
+|   |   |   |   |   |   imgui_log.txt
+|   |   |   |   |   |   main.cpp
+|   |   |   |   |   |   Makefile
+|   |   |   |   |   |   Makefile.emscripten
+|   |   |   |   |   |   
+|   |   |   |   |   \---Debug
+|   |   |   |   |       |   example_glfw_opengl3.exe
+|   |   |   |   |       |   example_glfw_opengl3.exe.recipe
+|   |   |   |   |       |   example_glfw_opengl3.ilk
+|   |   |   |   |       |   example_glfw_opengl3.log
+|   |   |   |   |       |   example_glfw_opengl3.pdb
+|   |   |   |   |       |   example_glfw_opengl3.vcxproj.FileListAbsolute.txt
+|   |   |   |   |       |   imgui.obj
+|   |   |   |   |       |   imgui_demo.obj
+|   |   |   |   |       |   imgui_draw.obj
+|   |   |   |   |       |   imgui_impl_glfw.obj
+|   |   |   |   |       |   imgui_impl_opengl3.obj
+|   |   |   |   |       |   imgui_tables.obj
+|   |   |   |   |       |   imgui_widgets.obj
+|   |   |   |   |       |   main.obj
+|   |   |   |   |       |   vc143.idb
+|   |   |   |   |       |   vc143.pdb
+|   |   |   |   |       |   
+|   |   |   |   |       \---example_.4a1fb5ea.tlog
+|   |   |   |   |               CL.command.1.tlog
+|   |   |   |   |               Cl.items.tlog
+|   |   |   |   |               CL.read.1.tlog
+|   |   |   |   |               CL.write.1.tlog
+|   |   |   |   |               example_glfw_opengl3.lastbuildstate
+|   |   |   |   |               link.command.1.tlog
+|   |   |   |   |               link.read.1.tlog
+|   |   |   |   |               link.secondary.1.tlog
+|   |   |   |   |               link.write.1.tlog
+|   |   |   |   |               
+|   |   |   |   +---example_glfw_vulkan
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       build_win64.bat
+|   |   |   |   |       CMakeLists.txt
+|   |   |   |   |       example_glfw_vulkan.vcxproj
+|   |   |   |   |       example_glfw_vulkan.vcxproj.filters
+|   |   |   |   |       example_glfw_vulkan.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_glfw_wgpu
+|   |   |   |   |       CMakeLists.txt
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile.emscripten
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_glut_opengl2
+|   |   |   |   |       example_glut_opengl2.vcxproj
+|   |   |   |   |       example_glut_opengl2.vcxproj.filters
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_null
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_null.vcxproj
+|   |   |   |   |       example_null.vcxproj.filters
+|   |   |   |   |       example_null.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_sdl2_directx11
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_sdl2_directx11.vcxproj
+|   |   |   |   |       example_sdl2_directx11.vcxproj.filters
+|   |   |   |   |       example_sdl2_directx11.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   +---example_sdl2_metal
+|   |   |   |   |       main.mm
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_sdl2_opengl2
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_sdl2_opengl2.vcxproj
+|   |   |   |   |       example_sdl2_opengl2.vcxproj.filters
+|   |   |   |   |       example_sdl2_opengl2.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_sdl2_opengl3
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_sdl2_opengl3.vcxproj
+|   |   |   |   |       example_sdl2_opengl3.vcxproj.filters
+|   |   |   |   |       example_sdl2_opengl3.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       Makefile.emscripten
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_sdl2_sdlrenderer2
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_sdl2_sdlrenderer2.vcxproj
+|   |   |   |   |       example_sdl2_sdlrenderer2.vcxproj.filters
+|   |   |   |   |       example_sdl2_sdlrenderer2.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_sdl2_vulkan
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       build_win64.bat
+|   |   |   |   |       example_sdl2_vulkan.vcxproj
+|   |   |   |   |       example_sdl2_vulkan.vcxproj.filters
+|   |   |   |   |       example_sdl2_vulkan.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_sdl2_wgpu
+|   |   |   |   |       CMakeLists.txt
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile.emscripten
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_sdl3_directx11
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_sdl3_directx11.vcxproj
+|   |   |   |   |       example_sdl3_directx11.vcxproj.filters
+|   |   |   |   |       example_sdl3_directx11.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   +---example_sdl3_metal
+|   |   |   |   |       main.mm
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_sdl3_opengl3
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       build_win64.bat
+|   |   |   |   |       example_sdl3_opengl3.vcxproj
+|   |   |   |   |       example_sdl3_opengl3.vcxproj.filters
+|   |   |   |   |       example_sdl3_opengl3.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       Makefile.emscripten
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_sdl3_sdlgpu3
+|   |   |   |   |       build_win64.bat
+|   |   |   |   |       example_sdl3_sdlgpu3.vcxproj
+|   |   |   |   |       example_sdl3_sdlgpu3.vcxproj.filters
+|   |   |   |   |       example_sdl3_sdlgpu3.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_sdl3_sdlrenderer3
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_sdl3_sdlrenderer3.vcxproj
+|   |   |   |   |       example_sdl3_sdlrenderer3.vcxproj.filters
+|   |   |   |   |       example_sdl3_sdlrenderer3.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_sdl3_vulkan
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       build_win64.bat
+|   |   |   |   |       example_sdl3_vulkan.vcxproj
+|   |   |   |   |       example_sdl3_vulkan.vcxproj.filters
+|   |   |   |   |       example_sdl3_vulkan.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile
+|   |   |   |   |       
+|   |   |   |   +---example_sdl3_wgpu
+|   |   |   |   |       CMakeLists.txt
+|   |   |   |   |       main.cpp
+|   |   |   |   |       Makefile.emscripten
+|   |   |   |   |       README.md
+|   |   |   |   |       
+|   |   |   |   +---example_win32_directx10
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_win32_directx10.vcxproj
+|   |   |   |   |       example_win32_directx10.vcxproj.filters
+|   |   |   |   |       example_win32_directx10.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   +---example_win32_directx11
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_win32_directx11.vcxproj
+|   |   |   |   |       example_win32_directx11.vcxproj.filters
+|   |   |   |   |       example_win32_directx11.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   +---example_win32_directx12
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_win32_directx12.vcxproj
+|   |   |   |   |       example_win32_directx12.vcxproj.filters
+|   |   |   |   |       example_win32_directx12.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   +---example_win32_directx9
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_win32_directx9.vcxproj
+|   |   |   |   |       example_win32_directx9.vcxproj.filters
+|   |   |   |   |       example_win32_directx9.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   +---example_win32_opengl3
+|   |   |   |   |       build_mingw.bat
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       example_win32_opengl3.vcxproj
+|   |   |   |   |       example_win32_opengl3.vcxproj.filters
+|   |   |   |   |       example_win32_opengl3.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   +---example_win32_vulkan
+|   |   |   |   |       build_win32.bat
+|   |   |   |   |       build_win64.bat
+|   |   |   |   |       example_win32_vulkan.vcxproj
+|   |   |   |   |       example_win32_vulkan.vcxproj.filters
+|   |   |   |   |       example_win32_vulkan.vcxproj.user
+|   |   |   |   |       main.cpp
+|   |   |   |   |       
+|   |   |   |   \---libs
+|   |   |   |       +---emscripten
+|   |   |   |       |       emscripten_mainloop_stub.h
+|   |   |   |       |       shell_minimal.html
+|   |   |   |       |       
+|   |   |   |       +---glfw
+|   |   |   |       |   |   COPYING.txt
+|   |   |   |       |   |   
+|   |   |   |       |   +---include
+|   |   |   |       |   |   \---GLFW
+|   |   |   |       |   |           glfw3.h
+|   |   |   |       |   |           glfw3native.h
+|   |   |   |       |   |           
+|   |   |   |       |   +---lib-vc2010-32
+|   |   |   |       |   |       glfw3.lib
+|   |   |   |       |   |       
+|   |   |   |       |   \---lib-vc2010-64
+|   |   |   |       |           glfw3.lib
+|   |   |   |       |           
+|   |   |   |       \---usynergy
+|   |   |   |               README.txt
+|   |   |   |               uSynergy.c
+|   |   |   |               uSynergy.h
+|   |   |   |               
+|   |   |   \---misc
+|   |   |       |   README.txt
+|   |   |       |   
+|   |   |       +---cpp
+|   |   |       |       imgui_stdlib.cpp
+|   |   |       |       imgui_stdlib.h
+|   |   |       |       README.txt
+|   |   |       |       
+|   |   |       +---debuggers
+|   |   |       |       imgui.gdb
+|   |   |       |       imgui.natstepfilter
+|   |   |       |       imgui.natvis
+|   |   |       |       imgui_lldb.py
+|   |   |       |       README.txt
+|   |   |       |       
+|   |   |       +---fonts
+|   |   |       |       binary_to_compressed_c.cpp
+|   |   |       |       Cousine-Regular.ttf
+|   |   |       |       DroidSans.ttf
+|   |   |       |       Karla-Regular.ttf
+|   |   |       |       ProggyClean.ttf
+|   |   |       |       ProggyTiny.ttf
+|   |   |       |       Roboto-Medium.ttf
+|   |   |       |       
+|   |   |       +---freetype
+|   |   |       |       imgui_freetype.cpp
+|   |   |       |       imgui_freetype.h
+|   |   |       |       README.md
+|   |   |       |       
+|   |   |       \---single_file
+|   |   |               imgui_single_file.h
+|   |   |               
+|   |   +---KHR
+|   |   |       khrplatform.h
+|   |   |       
+|   |   +---lua
+|   |   |   |   CMakeLists.txt
+|   |   |   |   Makefile
+|   |   |   |   README
+|   |   |   |   
+|   |   |   +---doc
+|   |   |   |       contents.html
+|   |   |   |       index.css
+|   |   |   |       logo.gif
+|   |   |   |       lua.1
+|   |   |   |       lua.css
+|   |   |   |       luac.1
+|   |   |   |       manual.css
+|   |   |   |       manual.html
+|   |   |   |       OSIApproved_100X125.png
+|   |   |   |       readme.html
+|   |   |   |       
+|   |   |   \---src
+|   |   |           lapi.c
+|   |   |           lapi.h
+|   |   |           lauxlib.c
+|   |   |           lauxlib.h
+|   |   |           lbaselib.c
+|   |   |           lcode.c
+|   |   |           lcode.h
+|   |   |           lcorolib.c
+|   |   |           lctype.c
+|   |   |           lctype.h
+|   |   |           ldblib.c
+|   |   |           ldebug.c
+|   |   |           ldebug.h
+|   |   |           ldo.c
+|   |   |           ldo.h
+|   |   |           ldump.c
+|   |   |           lfunc.c
+|   |   |           lfunc.h
+|   |   |           lgc.c
+|   |   |           lgc.h
+|   |   |           linit.c
+|   |   |           liolib.c
+|   |   |           ljumptab.h
+|   |   |           llex.c
+|   |   |           llex.h
+|   |   |           llimits.h
+|   |   |           lmathlib.c
+|   |   |           lmem.c
+|   |   |           lmem.h
+|   |   |           loadlib.c
+|   |   |           lobject.c
+|   |   |           lobject.h
+|   |   |           lopcodes.c
+|   |   |           lopcodes.h
+|   |   |           lopnames.h
+|   |   |           loslib.c
+|   |   |           lparser.c
+|   |   |           lparser.h
+|   |   |           lprefix.h
+|   |   |           lstate.c
+|   |   |           lstate.h
+|   |   |           lstring.c
+|   |   |           lstring.h
+|   |   |           lstrlib.c
+|   |   |           ltable.c
+|   |   |           ltable.h
+|   |   |           ltablib.c
+|   |   |           ltm.c
+|   |   |           ltm.h
+|   |   |           lua.c
+|   |   |           lua.h
+|   |   |           lua.hpp
+|   |   |           luac.c
+|   |   |           luaconf.h
+|   |   |           lualib.h
+|   |   |           lundump.c
+|   |   |           lundump.h
+|   |   |           lutf8lib.c
+|   |   |           lvm.c
+|   |   |           lvm.h
+|   |   |           lzio.c
+|   |   |           lzio.h
+|   |   |           Makefile
+|   |   |           
+|   |   \---openal-soft
+|   |       |   .clang-tidy
+|   |       |   .gitignore
+|   |       |   BSD-3Clause
+|   |       |   CMakeLists.txt
+|   |       |   config.h.in
+|   |       |   config_backends.h.in
+|   |       |   config_simd.h.in
+|   |       |   libopenal.version
+|   |       |   LICENSE-pffft
+|   |       |   openal.pc.in
+|   |       |   OpenALConfig.cmake.in
+|   |       |   version.cmake
+|   |       |   version.h.in
+|   |       |   XCompile-Android.txt
+|   |       |   XCompile.txt
+|   |       |   
+|   |       +---al
+|   |       |   |   auxeffectslot.cpp
+|   |       |   |   auxeffectslot.h
+|   |       |   |   buffer.cpp
+|   |       |   |   buffer.h
+|   |       |   |   debug.cpp
+|   |       |   |   debug.h
+|   |       |   |   direct_defs.h
+|   |       |   |   eax.cpp
+|   |       |   |   effect.cpp
+|   |       |   |   effect.h
+|   |       |   |   error.cpp
+|   |       |   |   event.cpp
+|   |       |   |   event.h
+|   |       |   |   extension.cpp
+|   |       |   |   filter.cpp
+|   |       |   |   filter.h
+|   |       |   |   listener.cpp
+|   |       |   |   listener.h
+|   |       |   |   source.cpp
+|   |       |   |   source.h
+|   |       |   |   state.cpp
+|   |       |   |   
+|   |       |   +---eax
+|   |       |   |       api.cpp
+|   |       |   |       api.h
+|   |       |   |       call.cpp
+|   |       |   |       call.h
+|   |       |   |       effect.h
+|   |       |   |       exception.cpp
+|   |       |   |       exception.h
+|   |       |   |       fx_slots.cpp
+|   |       |   |       fx_slots.h
+|   |       |   |       fx_slot_index.cpp
+|   |       |   |       fx_slot_index.h
+|   |       |   |       globals.h
+|   |       |   |       utils.cpp
+|   |       |   |       utils.h
+|   |       |   |       x_ram.h
+|   |       |   |       
+|   |       |   \---effects
+|   |       |           autowah.cpp
+|   |       |           chorus.cpp
+|   |       |           compressor.cpp
+|   |       |           convolution.cpp
+|   |       |           dedicated.cpp
+|   |       |           distortion.cpp
+|   |       |           echo.cpp
+|   |       |           effects.cpp
+|   |       |           effects.h
+|   |       |           equalizer.cpp
+|   |       |           fshifter.cpp
+|   |       |           modulator.cpp
+|   |       |           null.cpp
+|   |       |           pshifter.cpp
+|   |       |           reverb.cpp
+|   |       |           vmorpher.cpp
+|   |       |           
+|   |       +---alc
+|   |       |   |   alc.cpp
+|   |       |   |   alconfig.cpp
+|   |       |   |   alconfig.h
+|   |       |   |   alu.cpp
+|   |       |   |   alu.h
+|   |       |   |   context.cpp
+|   |       |   |   context.h
+|   |       |   |   device.cpp
+|   |       |   |   device.h
+|   |       |   |   events.cpp
+|   |       |   |   events.h
+|   |       |   |   export_list.h
+|   |       |   |   inprogext.h
+|   |       |   |   panning.cpp
+|   |       |   |   
+|   |       |   +---backends
+|   |       |   |       alsa.cpp
+|   |       |   |       alsa.h
+|   |       |   |       base.cpp
+|   |       |   |       base.h
+|   |       |   |       coreaudio.cpp
+|   |       |   |       coreaudio.h
+|   |       |   |       dsound.cpp
+|   |       |   |       dsound.h
+|   |       |   |       jack.cpp
+|   |       |   |       jack.h
+|   |       |   |       loopback.cpp
+|   |       |   |       loopback.h
+|   |       |   |       null.cpp
+|   |       |   |       null.h
+|   |       |   |       oboe.cpp
+|   |       |   |       oboe.h
+|   |       |   |       opensl.cpp
+|   |       |   |       opensl.h
+|   |       |   |       oss.cpp
+|   |       |   |       oss.h
+|   |       |   |       pipewire.cpp
+|   |       |   |       pipewire.h
+|   |       |   |       portaudio.cpp
+|   |       |   |       portaudio.hpp
+|   |       |   |       pulseaudio.cpp
+|   |       |   |       pulseaudio.h
+|   |       |   |       sdl2.cpp
+|   |       |   |       sdl2.h
+|   |       |   |       sdl3.cpp
+|   |       |   |       sdl3.h
+|   |       |   |       sndio.cpp
+|   |       |   |       sndio.hpp
+|   |       |   |       solaris.cpp
+|   |       |   |       solaris.h
+|   |       |   |       wasapi.cpp
+|   |       |   |       wasapi.h
+|   |       |   |       wave.cpp
+|   |       |   |       wave.h
+|   |       |   |       winmm.cpp
+|   |       |   |       winmm.h
+|   |       |   |       
+|   |       |   \---effects
+|   |       |           autowah.cpp
+|   |       |           base.h
+|   |       |           chorus.cpp
+|   |       |           compressor.cpp
+|   |       |           convolution.cpp
+|   |       |           dedicated.cpp
+|   |       |           distortion.cpp
+|   |       |           echo.cpp
+|   |       |           equalizer.cpp
+|   |       |           fshifter.cpp
+|   |       |           modulator.cpp
+|   |       |           null.cpp
+|   |       |           pshifter.cpp
+|   |       |           reverb.cpp
+|   |       |           vmorpher.cpp
+|   |       |           
+|   |       +---alsoft-modules
+|   |       |       gsl.cppm
+|   |       |       router.cppm
+|   |       |       
+|   |       +---build
+|   |       |       .empty
+|   |       |       
+|   |       +---cmake
+|   |       |       bin2h.script.cmake
+|   |       |       FindALSA.cmake
+|   |       |       FindAudioIO.cmake
+|   |       |       FindFFmpeg.cmake
+|   |       |       FindJACK.cmake
+|   |       |       FindMySOFA.cmake
+|   |       |       FindOboe.cmake
+|   |       |       FindOpenSL.cmake
+|   |       |       FindOSS.cmake
+|   |       |       FindPortAudio.cmake
+|   |       |       FindPulseAudio.cmake
+|   |       |       FindSndFile.cmake
+|   |       |       FindSndIO.cmake
+|   |       |       
+|   |       +---common
+|   |       |       albit.h
+|   |       |       alcomplex.cpp
+|   |       |       alcomplex.h
+|   |       |       alformat.hpp
+|   |       |       almalloc.cpp
+|   |       |       almalloc.h
+|   |       |       alnumeric.h
+|   |       |       alstring.cpp
+|   |       |       alstring.h
+|   |       |       althrd_setname.cpp
+|   |       |       althrd_setname.h
+|   |       |       althreads.h
+|   |       |       altypes.hpp
+|   |       |       atomic.h
+|   |       |       comptr.h
+|   |       |       dlopennote.h
+|   |       |       dynload.cpp
+|   |       |       dynload.h
+|   |       |       expected.hpp
+|   |       |       filesystem.cpp
+|   |       |       filesystem.h
+|   |       |       flexarray.h
+|   |       |       ghc_filesystem.h
+|   |       |       intrusive_ptr.h
+|   |       |       opthelpers.h
+|   |       |       pffft.cpp
+|   |       |       pffft.h
+|   |       |       phase_shifter.h
+|   |       |       polyphase_resampler.cpp
+|   |       |       polyphase_resampler.h
+|   |       |       pragmadefs.h
+|   |       |       ringbuffer.h
+|   |       |       strutils.cpp
+|   |       |       strutils.hpp
+|   |       |       vecmat.h
+|   |       |       vector.h
+|   |       |       win_main_utf8.h
+|   |       |       
+|   |       +---configs
+|   |       |   +---HRTF
+|   |       |   |       alsoft.ini
+|   |       |   |       
+|   |       |   +---HRTF+WASAPI Exclusive
+|   |       |   |       alsoft.ini
+|   |       |   |       
+|   |       |   \---WASAPI Exclusive
+|   |       |           alsoft.ini
+|   |       |           
+|   |       +---core
+|   |       |   |   ambdec.cpp
+|   |       |   |   ambdec.h
+|   |       |   |   ambidefs.cpp
+|   |       |   |   ambidefs.h
+|   |       |   |   async_event.h
+|   |       |   |   bformatdec.cpp
+|   |       |   |   bformatdec.h
+|   |       |   |   bs2b.cpp
+|   |       |   |   bs2b.h
+|   |       |   |   bsinc_defs.h
+|   |       |   |   bsinc_tables.cpp
+|   |       |   |   bsinc_tables.h
+|   |       |   |   bufferline.h
+|   |       |   |   buffer_storage.h
+|   |       |   |   context.cpp
+|   |       |   |   context.h
+|   |       |   |   converter.cpp
+|   |       |   |   converter.h
+|   |       |   |   cpu_caps.cpp
+|   |       |   |   cpu_caps.h
+|   |       |   |   cubic_defs.h
+|   |       |   |   cubic_tables.cpp
+|   |       |   |   cubic_tables.h
+|   |       |   |   devformat.cpp
+|   |       |   |   devformat.h
+|   |       |   |   device.cpp
+|   |       |   |   device.h
+|   |       |   |   effectslot.cpp
+|   |       |   |   effectslot.h
+|   |       |   |   except.cpp
+|   |       |   |   except.h
+|   |       |   |   fmt_traits.h
+|   |       |   |   fpu_ctrl.cpp
+|   |       |   |   fpu_ctrl.h
+|   |       |   |   front_stablizer.h
+|   |       |   |   helpers.cpp
+|   |       |   |   helpers.h
+|   |       |   |   hrtf.cpp
+|   |       |   |   hrtf.h
+|   |       |   |   hrtf_loader.cpp
+|   |       |   |   hrtf_loader.hpp
+|   |       |   |   hrtf_resource.cpp
+|   |       |   |   hrtf_resource.hpp
+|   |       |   |   logging.cpp
+|   |       |   |   logging.h
+|   |       |   |   mastering.cpp
+|   |       |   |   mastering.h
+|   |       |   |   mixer.cpp
+|   |       |   |   mixer.h
+|   |       |   |   resampler_limits.h
+|   |       |   |   rtkit.cpp
+|   |       |   |   rtkit.h
+|   |       |   |   storage_formats.cpp
+|   |       |   |   storage_formats.h
+|   |       |   |   uhjfilter.cpp
+|   |       |   |   uhjfilter.h
+|   |       |   |   uiddefs.cpp
+|   |       |   |   voice.cpp
+|   |       |   |   voice.h
+|   |       |   |   voice_change.h
+|   |       |   |   
+|   |       |   +---effects
+|   |       |   |       base.h
+|   |       |   |       
+|   |       |   +---filters
+|   |       |   |       biquad.cpp
+|   |       |   |       biquad.h
+|   |       |   |       nfc.cpp
+|   |       |   |       nfc.h
+|   |       |   |       splitter.cpp
+|   |       |   |       splitter.h
+|   |       |   |       
+|   |       |   \---mixer
+|   |       |           defs.h
+|   |       |           hrtfbase.h
+|   |       |           hrtfdefs.h
+|   |       |           mixer_c.cpp
+|   |       |           mixer_neon.cpp
+|   |       |           mixer_sse.cpp
+|   |       |           mixer_sse2.cpp
+|   |       |           mixer_sse3.cpp
+|   |       |           mixer_sse41.cpp
+|   |       |           
+|   |       +---examples
+|   |       |   |   alconvolve.c
+|   |       |   |   aldebug.cpp
+|   |       |   |   aldirect.cpp
+|   |       |   |   alffplay.cpp
+|   |       |   |   alhrtf.c
+|   |       |   |   allafplay.cpp
+|   |       |   |   allatency.c
+|   |       |   |   alloopback.c
+|   |       |   |   almultireverb.c
+|   |       |   |   alplay.c
+|   |       |   |   alrecord.c
+|   |       |   |   alreverb.c
+|   |       |   |   alstream.c
+|   |       |   |   alstreamcb.cpp
+|   |       |   |   altonegen.c
+|   |       |   |   
+|   |       |   \---common
+|   |       |           alhelpers.c
+|   |       |           alhelpers.h
+|   |       |           alhelpers.hpp
+|   |       |           
+|   |       +---fmt-11.2.0
+|   |       |   |   .clang-format
+|   |       |   |   .gitignore
+|   |       |   |   ChangeLog.md
+|   |       |   |   CMakeLists.txt
+|   |       |   |   CONTRIBUTING.md
+|   |       |   |   LICENSE
+|   |       |   |   README.md
+|   |       |   |   
+|   |       |   +---.github
+|   |       |   |   |   dependabot.yml
+|   |       |   |   |   issue_template.md
+|   |       |   |   |   pull_request_template.md
+|   |       |   |   |   
+|   |       |   |   \---workflows
+|   |       |   |           cifuzz.yml
+|   |       |   |           doc.yml
+|   |       |   |           lint.yml
+|   |       |   |           linux.yml
+|   |       |   |           macos.yml
+|   |       |   |           scorecard.yml
+|   |       |   |           windows.yml
+|   |       |   |           
+|   |       |   +---doc
+|   |       |   |       api.md
+|   |       |   |       ChangeLog-old.md
+|   |       |   |       fmt.css
+|   |       |   |       fmt.js
+|   |       |   |       get-started.md
+|   |       |   |       index.md
+|   |       |   |       perf.svg
+|   |       |   |       python-license.txt
+|   |       |   |       syntax.md
+|   |       |   |       
+|   |       |   +---include
+|   |       |   |   \---fmt
+|   |       |   |           args.h
+|   |       |   |           base.h
+|   |       |   |           chrono.h
+|   |       |   |           color.h
+|   |       |   |           compile.h
+|   |       |   |           core.h
+|   |       |   |           format-inl.h
+|   |       |   |           format.h
+|   |       |   |           os.h
+|   |       |   |           ostream.h
+|   |       |   |           printf.h
+|   |       |   |           ranges.h
+|   |       |   |           std.h
+|   |       |   |           xchar.h
+|   |       |   |           
+|   |       |   +---src
+|   |       |   |       fmt.cc
+|   |       |   |       format.cc
+|   |       |   |       os.cc
+|   |       |   |       
+|   |       |   \---support
+|   |       |       |   Android.mk
+|   |       |       |   AndroidManifest.xml
+|   |       |       |   build.gradle
+|   |       |       |   C++.sublime-syntax
+|   |       |       |   check-commits
+|   |       |       |   docopt.py
+|   |       |       |   mkdocs
+|   |       |       |   mkdocs.yml
+|   |       |       |   printable.py
+|   |       |       |   README
+|   |       |       |   release.py
+|   |       |       |   Vagrantfile
+|   |       |       |   
+|   |       |       +---bazel
+|   |       |       |       .bazelversion
+|   |       |       |       BUILD.bazel
+|   |       |       |       MODULE.bazel
+|   |       |       |       README.md
+|   |       |       |       WORKSPACE.bazel
+|   |       |       |       
+|   |       |       +---cmake
+|   |       |       |       FindSetEnv.cmake
+|   |       |       |       fmt-config.cmake.in
+|   |       |       |       fmt.pc.in
+|   |       |       |       JoinPaths.cmake
+|   |       |       |       
+|   |       |       \---python
+|   |       |           \---mkdocstrings_handlers
+|   |       |               \---cxx
+|   |       |                   |   __init__.py
+|   |       |                   |   
+|   |       |                   \---templates
+|   |       |                           README
+|   |       |                           
+|   |       +---gsl
+|   |       |   |   .clang-format
+|   |       |   |   CMakeLists.txt
+|   |       |   |   CMakeSettings.json
+|   |       |   |   CONTRIBUTING.md
+|   |       |   |   GSL.natvis
+|   |       |   |   LICENSE
+|   |       |   |   README.md
+|   |       |   |   SECURITY.md
+|   |       |   |   ThirdPartyNotices.txt
+|   |       |   |   
+|   |       |   +---docs
+|   |       |   |       headers.md
+|   |       |   |       
+|   |       |   \---include
+|   |       |       |   CMakeLists.txt
+|   |       |       |   
+|   |       |       \---gsl
+|   |       |               algorithm
+|   |       |               assert
+|   |       |               byte
+|   |       |               gsl
+|   |       |               narrow
+|   |       |               pointers
+|   |       |               span
+|   |       |               span_ext
+|   |       |               util
+|   |       |               zstring
+|   |       |               
+|   |       +---hrtf
+|   |       |       Default HRTF.mhr
+|   |       |       
+|   |       +---include
+|   |       |   \---AL
+|   |       |           al.h
+|   |       |           alc.h
+|   |       |           alext.h
+|   |       |           efx-creative.h
+|   |       |           efx-presets.h
+|   |       |           efx.h
+|   |       |           
+|   |       +---logging
+|   |       |       log.cmd
+|   |       |       
+|   |       +---modules
+|   |       |       al.cppm
+|   |       |       alc.cppm
+|   |       |       alext.cppm
+|   |       |       alstd.cppm
+|   |       |       efx.cppm
+|   |       |       openal.cppm
+|   |       |       
+|   |       +---presets
+|   |       |       3D7.1.ambdec
+|   |       |       hex-quad.ambdec
+|   |       |       hexagon.ambdec
+|   |       |       itu5.1-nocenter.ambdec
+|   |       |       itu5.1.ambdec
+|   |       |       presets.txt
+|   |       |       rectangle.ambdec
+|   |       |       square.ambdec
+|   |       |       
+|   |       +---registry
+|   |       |   |   README.md
+|   |       |   |   
+|   |       |   +---scripts
+|   |       |   |       genheaders.py
+|   |       |   |       reg.py
+|   |       |   |       
+|   |       |   \---xml
+|   |       |           al.xml
+|   |       |           
+|   |       +---resources
+|   |       |       openal32.rc
+|   |       |       resource.h
+|   |       |       router.rc
+|   |       |       soft_oal.rc
+|   |       |       
+|   |       +---router
+|   |       |       al.cpp
+|   |       |       alc.cpp
+|   |       |       router.cpp
+|   |       |       router.h
+|   |       |       
+|   |       \---utils
+|   |           |   CIAIR.def
+|   |           |   IRC_1005.def
+|   |           |   MIT_KEMAR.def
+|   |           |   MIT_KEMAR_sofa.def
+|   |           |   openal-info.c
+|   |           |   SCUT_KEMAR.def
+|   |           |   sofa-info.cpp
+|   |           |   sofa-support.cpp
+|   |           |   sofa-support.h
+|   |           |   uhjdecoder.cpp
+|   |           |   uhjencoder.cpp
+|   |           |   
+|   |           +---alsoft-config
+|   |           |       CMakeLists.txt
+|   |           |       main.cpp
+|   |           |       mainwindow.cpp
+|   |           |       mainwindow.h
+|   |           |       mainwindow.ui
+|   |           |       verstr.cpp
+|   |           |       verstr.h
+|   |           |       
+|   |           \---makemhr
+|   |                   loaddef.cpp
+|   |                   loaddef.h
+|   |                   loadsofa.cpp
+|   |                   loadsofa.h
+|   |                   makemhr.cpp
+|   |                   makemhr.h
+|   |                   
+|   +---lua
+|   |       luaBindings.ini
+|   |       luaVM.h
+|   |       scriptBinder.h
+|   |       scriptSystem.h
+|   |       
+|   \---tools
+|           cineSequenceMaker.h
+|           gameTerminal.h
+|           midiEditor.h
+|           pakBuilder.h
+|           particleEditor.h
+|           projectBuilder.h
+|           projectConfigurator.h
+|           projectManager.h
+|           projectProfiler.h
+|           sceneEditor.h
+|           spriteEditor.h
+|           widgetEditor.h
+|           
++---LaManchaProjects
+|   \---ExampleProject
+|       |   CMakeLists.txt
+|       |   
+|       +---assets
+|       |       .gitkeep
+|       |       
+|       +---build
+|       |       .gitkeep
+|       |       
+|       +---CMake
+|       |       readINI.cmake
+|       |       
+|       +---config
+|       |       build.ini
+|       |       game.ini
+|       |       input.ini
+|       |       
+|       \---scripts
+|               .gitkeep
+|               
+\---LaManchaPromo
+        LaManchaEngine_Badge.html
+        LaManchaEngine_Logo.png
+        LaManchaEngine_Logo.svg
+        LaManchaEngine_Logo_Tagline.png
+        
