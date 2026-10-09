@@ -1,0 +1,15 @@
+https://manenko.com/2021/05/23/sparse-sets.html
+https://en.wikipedia.org/wiki/Software_design_pattern
+https://thenumb.at/Hashtables/#two-way-chaining
+https://courses.csail.mit.edu/6.006/fall10/lectures/lecture7.pdf
+https://par.nsf.gov/servlets/purl/10298570
+https://bluuewhale.github.io/posts/building-a-fast-and-memory-efficient-hash-table-in-java-by-borrowing-the-best-ideas/
+https://benhoyt.com/writings/hash-table-in-c/
+https://redixhumayun.github.io/performance/2025/01/27/cache-conscious-hash-maps.html
+https://dev.to/huizhou92/swisstable-a-high-performance-hash-table-implementation-1knc
+https://medium.com/basecs/hashing-out-hash-functions-ea5dd8beb4dd
+https://medium.com/@RobuRishabh/mastering-hashset-in-c-unraveling-the-power-of-unordered-set-02782a81036d
+https://www.geeksforgeeks.org/java/internal-working-of-sethashset-in-java/
+https://www.youtube.com/watch?v=LWFzPP8ZbdU // Noise based RNG
+https://stackoverflow.com/questions/4173254/what-is-the-curiously-recurring-template-pattern-crtp
+https://skypjack.github.io/entt/#code-example

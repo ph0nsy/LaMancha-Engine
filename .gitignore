@@ -48,3 +48,7 @@
 
 *.geany
 *.swp
+
+
+# Dev foulders
+.Reources_References/

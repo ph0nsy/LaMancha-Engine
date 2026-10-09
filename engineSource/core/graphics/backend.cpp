@@ -1,21 +1,35 @@
-#include "IBackend.h"
-
-#if defined(LAMANCHA_PLATFORM_R36S)
-#include "drmBackend.h"
-#else
-#include "glfwBackend.h"
-#endif
+#include "core/pch.h"
+#include "backend.h"
 
 namespace LaMancha {
-namespace Graphics {
-    
-IBackend* createBackend() {
-#if defined(LAMANCHA_PLATFORM_R36S)
-  return new DRMBackend();
-#else
-  return new GLFWBackend();
+  namespace Graphics {
+    Backend* createBackend() {
+#if defined(LAMANCHA_PLATFORM_ANDROID) || defined(LAMANCHA_PLATFORM_R36S)
+      return new DRMBackend();
 #endif
-};
 
-}  // namespace Graphics
-}  // namespace LaMancha
+#if defined(LAMANCHA_PLATFORM_WINDOWS) || defined(LAMANCHA_PLATFORM_LINUX)
+      return new GLFWBackend();
+#endif
+    };
+
+#if defined(LAMANCHA_PLATFORM_R36S) || defined(LAMANCHA_PLATFORM_ANDROID)
+    void DRMBackend::pollEvents()
+    {
+    }
+
+    bool DRMBackend::shouldClose()
+    {
+      return false;
+    }
+
+    void DRMBackend::shutdown()
+    {
+    }
+
+    void DRMBackend::updateTime()
+    {
+    }
+#endif
+  }
+}

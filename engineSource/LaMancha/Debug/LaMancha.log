@@ -1,0 +1,1098 @@
+﻿  backend.cpp
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(546,13): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/graphics/backend.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(549,20): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/graphics/backend.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(552,27): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/graphics/backend.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\graphics\backend.h(69,11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'core/graphics/backend.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\graphics\backend.cpp(24,11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  sync.cpp
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(546,13): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/memory/sync.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(549,20): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/memory/sync.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(552,27): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(36,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(36,28): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(36,64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(67,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(67,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(68,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(68,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(69,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(69,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(70,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(70,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(71,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(71,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(74,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(74,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(76,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(76,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(77,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(77,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(78,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(78,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(79,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(79,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(80,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(80,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(81,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(81,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(82,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(82,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(83,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(83,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(84,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(84,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(86,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(86,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(87,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(87,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(88,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(88,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(89,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(89,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(90,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(90,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(91,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(91,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(92,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(92,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(93,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(93,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(94,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(94,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(95,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(95,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(96,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(96,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(97,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(97,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(98,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(98,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(99,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(99,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(102,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(102,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(102,61): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(103,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(103,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(103,61): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(104,61): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(106,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(106,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(106,64): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(107,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(107,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(107,64): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(108,64): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(113,77): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(115,72): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(30,86): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(32,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(34,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(36,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(41,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(43,71): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(48,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(50,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(52,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(54,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(56,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(58,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(60,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(69,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(71,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(126,51): error C2065: '_locale_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(126,61): error C2146: syntax error: missing ')' before identifier '_Locale'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(208,38): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(208,14): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(208,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C2059: syntax error: '{'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(215,50): error C2065: '_locale_t': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(215,66): error C2062: type 'int' unexpected
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(221,18): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(225,31): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(225,16): error C3861: '_chvalidator_l': identifier not found
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(242,18): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(245,14): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'core/memory/sync.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(247,20): error C2660: '_chvalidchk_l': function does not take 3 arguments
+  (compiling source file 'core/memory/sync.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(218,28):
+      see declaration of '_chvalidchk_l'
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(247,20):
+      while trying to match the argument list '(const int, const int, int)'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(247,20): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'core/memory/sync.cpp')
+  
+  thread.cpp
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(546,13): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/memory/thread.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(549,20): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/memory/thread.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(552,27): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(36,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(36,28): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(36,64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(67,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(67,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(68,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(68,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(69,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(69,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(70,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(70,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(71,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(71,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(74,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(74,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(76,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(76,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(77,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(77,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(78,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(78,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(79,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(79,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(80,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(80,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(81,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(81,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(82,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(82,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(83,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(83,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(84,53): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(84,60): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(86,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(86,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(87,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(87,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(88,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(88,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(89,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(89,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(90,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(90,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(91,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(91,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(92,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(92,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(93,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(93,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(94,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(94,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(95,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(95,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(96,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(96,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(97,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(97,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(98,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(98,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(99,55): error C2065: 'wint_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(99,62): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(102,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(102,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(102,61): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(103,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(103,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(103,61): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(104,61): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(106,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(106,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(106,64): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(107,32): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(107,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(107,64): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(108,64): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(113,77): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wctype.h(115,72): error C2146: syntax error: missing ')' before identifier '_C'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(30,86): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(32,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(34,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(36,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(41,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(43,71): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(48,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(50,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(52,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(54,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(56,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(58,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(60,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(69,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(71,70): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(126,51): error C2065: '_locale_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(126,61): error C2146: syntax error: missing ')' before identifier '_Locale'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(208,38): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(208,14): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(208,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C2059: syntax error: '{'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C2143: syntax error: missing ';' before '{'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(209,5): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(215,50): error C2065: '_locale_t': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(215,66): error C2062: type 'int' unexpected
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(221,18): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(225,31): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(225,16): error C3861: '_chvalidator_l': identifier not found
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(242,18): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(245,14): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'core/memory/thread.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(247,20): error C2660: '_chvalidchk_l': function does not take 3 arguments
+  (compiling source file 'core/memory/thread.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(218,28):
+      see declaration of '_chvalidchk_l'
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(247,20):
+      while trying to match the argument list '(const int, const int, int)'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\ctype.h(247,20): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'core/memory/thread.cpp')
+  
+  main.cpp
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(546,13): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(549,20): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'main.cpp')
+  
+D:\General info\New folder (10)\LaMancha-Engine\engineSource\core\baseTypesLM.h(552,27): warning C4244: 'return': conversion from 'unsigned __int64' to 'usize', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdarg(21,21): error C2039: 'va_list': is not a member of '`global namespace''
+  (compiling source file 'main.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cstdarg(21,13): error C2873: 'va_list': symbol cannot be used in a using-declaration
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(51,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(51,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(53,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(56,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(56,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(56,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(59,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(59,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(61,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(64,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(64,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(65,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(69,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(69,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(71,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(74,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(74,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(74,43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(105,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(105,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(108,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(111,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(111,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(112,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(121,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(121,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(122,24): error C2146: syntax error: missing ')' before identifier '_Character'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(139,22): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(139,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(143,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(154,22): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(154,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(159,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(199,22): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(199,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(201,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(204,5): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(204,5): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(204,5): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(208,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(208,1): error C2732: linkage specification contradicts earlier specification for 'errno_t'
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(204,5):
+      see declaration of 'errno_t'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(204,5): warning C4273: 'errno_t': inconsistent dll linkage
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(199,14):
+      see previous definition of 'errno_t'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(204,5): error C2065: '_Size': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(204,5): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(224,21): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(224,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(229,21): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(229,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(235,21): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(235,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(240,21): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(240,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(246,21): error C2988: unrecognizable template declaration/definition
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(246,21): error C2143: syntax error: missing ';' before '__cdecl'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(247,24): error C2146: syntax error: missing ')' before identifier '_Character'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(276,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(285,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(294,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(302,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(309,95): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(309,104): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(309,16): error C3861: '__stdio_common_vfwprintf': identifier not found
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(317,39): error C2061: syntax error: identifier 'va_list'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(323,53): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(331,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(338,97): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(338,106): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(338,16): error C3861: '__stdio_common_vfwprintf_s': identifier not found
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(348,43): error C2061: syntax error: identifier 'va_list'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(354,59): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(364,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(371,97): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(371,106): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(371,16): error C3861: '__stdio_common_vfwprintf_p': identifier not found
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(379,39): error C2061: syntax error: identifier 'va_list'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(385,55): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(392,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(399,46): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(399,55): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(406,39): error C2061: syntax error: identifier 'va_list'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(412,52): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(419,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(426,48): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(426,57): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(435,43): error C2061: syntax error: identifier 'va_list'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(441,58): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(450,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(457,48): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(457,57): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(464,39): error C2061: syntax error: identifier 'va_list'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(470,54): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(478,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(485,9): error C2065: 'va_list': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(485,17): error C2146: syntax error: missing ';' before identifier '_ArgList'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(485,17): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(486,9): error C2065: '__vcrt_assert_va_start_is_not_reference': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(486,9): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(486,9): error C2062: type 'unknown-type' unexpected
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(487,9): error C2065: '_Result': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(487,50): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(487,59): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(488,9): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(488,9): error C3861: '__va_end': identifier not found
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(489,16): error C2065: '_Result': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(503,9): error C2065: 'va_list': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(503,17): error C2146: syntax error: missing ';' before identifier '_ArgList'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(503,17): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(504,9): error C2065: '__vcrt_assert_va_start_is_not_reference': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(504,9): error C2062: type 'const wchar_t *const ' unexpected
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(505,9): error C2065: '_Result': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(505,56): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(506,9): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(506,9): error C3861: '__va_end': identifier not found
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(507,16): error C2065: '_Result': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(515,49): error C2061: syntax error: identifier '_locale_t'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(522,9): error C2065: 'va_list': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(522,17): error C2146: syntax error: missing ';' before identifier '_ArgList'
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(522,17): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(523,9): error C2065: '__vcrt_assert_va_start_is_not_reference': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(523,9): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(523,9): error C2062: type 'unknown-type' unexpected
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(524,9): error C2065: '_Result': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(524,52): error C2065: '_Locale': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(524,61): error C2065: '_ArgList': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_wstdio.h(524,61): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'main.cpp')
+  
+  Generating Code...

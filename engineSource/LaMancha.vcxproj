@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{B002E293-1ABF-82F1-5426-43BA550F7F8E}</ProjectGuid>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <CompileAsManaged>false</CompileAsManaged>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>core/pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <CompileAsManaged>false</CompileAsManaged>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>core/pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <CompileAsManaged>false</CompileAsManaged>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>core/pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <CompileAsManaged>false</CompileAsManaged>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>core/pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="core\config\iniReader.cpp" />
+    <ClCompile Include="core\ecs\components\transform.cpp" />
+    <ClCompile Include="core\graphics\backend.cpp" />
+    <ClCompile Include="core\graphics\camera.cpp" />
+    <ClCompile Include="core\log.cpp" />
+    <ClCompile Include="core\memory\arena.cpp" />
+    <ClCompile Include="core\memory\garbageCollector.cpp" />
+    <ClCompile Include="core\memory\heap.cpp" />
+    <ClCompile Include="core\memory\ioArena.cpp" />
+    <ClCompile Include="core\memory\pool.cpp" />
+    <ClCompile Include="core\memory\sync.cpp" />
+    <ClCompile Include="core\memory\thread.cpp" />
+    <ClCompile Include="core\pch.cpp" />
+    <ClCompile Include="core\types\objects\LaManchaObject.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="deps\GLFW\getopt.c">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="deps\ini.c">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="deps\tinycthread.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\algorithms\sort\heapsort.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\insertionsort.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\introsort.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\quicksort.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\sort.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\sortUtilities.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\config\buildConfigVars.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\config\configSetUp.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\config\engineConfigVars.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\config\generalConfigVars.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\config\iniReader.h" />
+    <ClInclude Include="core\ecs\components\transform.h" />
+    <ClInclude Include="core\graphics\camera.h" />
+    <ClInclude Include="core\hash.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\memory\heap.h" />
+    <ClInclude Include="core\memory\ioArena.h" />
+    <ClInclude Include="core\time.h" />
+    <ClInclude Include="core\ecs\component.h" />
+    <ClInclude Include="core\ecs\entity.h" />
+    <ClInclude Include="core\ecs\system.h" />
+    <ClInclude Include="core\graphics\backend.h" />
+    <ClInclude Include="core\graphics\renderer.h" />
+    <ClInclude Include="core\math\geometry.h" />
+    <ClInclude Include="core\math\interp.h" />
+    <ClInclude Include="core\math\mat.h" />
+    <ClInclude Include="core\math\mathCore.h" />
+    <ClInclude Include="core\math\LaManchaMath.h" />
+    <ClInclude Include="core\math\quat.h" />
+    <ClInclude Include="core\math\vec.h" />
+    <ClInclude Include="core\memory\arena.h" />
+    <ClInclude Include="core\memory\construct.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\memory\frame.h" />
+    <ClInclude Include="core\memory\garbageCollector.h" />
+    <ClInclude Include="core\memory\levelArena.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\memory\lifetimes.h" />
+    <ClInclude Include="core\memory\pool.h" />
+    <ClInclude Include="core\memory\scratchpad.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\memory\sync.h" />
+    <ClInclude Include="core\memory\thread.h" />
+    <ClInclude Include="core\memory\permanent.h" />
+    <ClInclude Include="core\pch.h" />
+    <ClInclude Include="core\log.h" />
+    <ClInclude Include="core\platform\platform.h" />
+    <ClInclude Include="core\types\color.h" />
+    <ClInclude Include="core\types\dataStructures\array.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\hashmap.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\hashset.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\list\arrayList.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\list\queue.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\list\ringBuffer.h" />
+    <ClInclude Include="core\types\dataStructures\list\stack.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\pair.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\sparseSet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\handle.h" />
+    <ClInclude Include="core\types\objects\actorObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\objects\LaManchaObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\objects\managerObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\objects\uiObject.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="core\types\specilizedTypesLM.h" />
+    <ClInclude Include="core\types\string.h" />
+    <ClInclude Include="deps\doctest.h" />
+    <ClInclude Include="deps\GLFW\getopt.h" />
+    <ClInclude Include="deps\GLFW\glad\gl.h" />
+    <ClInclude Include="deps\GLFW\glad\gles2.h" />
+    <ClInclude Include="deps\GLFW\glad\vulkan.h" />
+    <ClInclude Include="deps\GLFW\glfw3.h" />
+    <ClInclude Include="deps\GLFW\glfw3native.h" />
+    <ClInclude Include="deps\ini.h" />
+    <ClInclude Include="deps\nanobench.h" />
+    <ClInclude Include="deps\tinycthread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core\config\game.ini" />
+    <None Include="deps\dependencies.ini" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

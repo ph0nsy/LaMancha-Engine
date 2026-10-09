@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;ini</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine Files">
+      <UniqueIdentifier>{309b8330-bd88-47df-8b51-35472f4e4a9a}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Dependencies">
+      <UniqueIdentifier>{29f10d08-e229-405c-a134-11980668b27b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine Files">
+      <UniqueIdentifier>{bd789fc4-c7ab-417f-8509-e08a62820c0f}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core">
+      <UniqueIdentifier>{2c83838f-0b86-403a-8385-add72e44b8f6}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core">
+      <UniqueIdentifier>{b255946c-3202-4b66-9f6e-24191ff1d432}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Dependencies">
+      <UniqueIdentifier>{203fccb3-7fac-46f9-927f-8f0815bc1ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Graphics">
+      <UniqueIdentifier>{3f133441-73b6-462d-abb0-0c17e5218492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\Graphics">
+      <UniqueIdentifier>{83083925-a519-4447-ab2e-2af7ceb8c57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\ECS">
+      <UniqueIdentifier>{a9f50747-0763-4043-b46a-7dc2aa915f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies\GLFW">
+      <UniqueIdentifier>{aef0b9cd-5b6b-40a5-bbfc-19e5703ed189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\Memory">
+      <UniqueIdentifier>{d58109bb-2425-40a7-8254-06615ecd029c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Math">
+      <UniqueIdentifier>{95f4109d-3f50-4b71-a0e4-8f3ae3256468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Memory">
+      <UniqueIdentifier>{4c5a5f22-5e93-403b-a2b4-f705e20d9929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Types">
+      <UniqueIdentifier>{8abc94a4-39ba-4a5f-8bb5-afdcc6b370c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\ECS\Components">
+      <UniqueIdentifier>{fdd10545-ea3a-403a-89d6-8bcc25a01a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Memory\Allocators">
+      <UniqueIdentifier>{da9ba851-93a1-4ffc-838a-1523cc9a6c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Configuration">
+      <UniqueIdentifier>{7b44d8e8-f896-410c-bc1b-e428d195932d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Types\Data Structures">
+      <UniqueIdentifier>{fa3b5920-1eb1-4e58-b04d-068f735e7594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Types\Data Structures\Graph">
+      <UniqueIdentifier>{f8b87c2a-c102-404f-a0f1-7f1cb4520ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Types\Data Structures\List">
+      <UniqueIdentifier>{17be5023-215f-4049-85f2-6df5d6e9986f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Types\Data Structures\Tree">
+      <UniqueIdentifier>{9d2cb31d-795e-494c-b4e9-d7a4bcc97a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\ECS">
+      <UniqueIdentifier>{2a3006bd-f82d-4103-b581-f1ea23316f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\ECS\Components">
+      <UniqueIdentifier>{66d960c4-0828-4c4a-a23f-10eba33cd57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\Configuration">
+      <UniqueIdentifier>{be6689b2-6953-4b9e-89af-804dde51f577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\Types">
+      <UniqueIdentifier>{172218e8-89ff-496c-8e29-7f93c244e2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Algorithms">
+      <UniqueIdentifier>{fd352c0e-b406-4f56-b048-98ef09890108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Algorithms\Sort">
+      <UniqueIdentifier>{218dded5-5899-488e-8799-4b2e30691628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\Memory\Allocators">
+      <UniqueIdentifier>{a47efc00-47ab-4260-8914-262b6f841c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dependencies">
+      <UniqueIdentifier>{de254812-67af-4ed2-9843-c38dcffca737}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Dependencies\KHR">
+      <UniqueIdentifier>{df72203a-faa2-4514-8432-420daa4c25a0}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Dependencies\Lua">
+      <UniqueIdentifier>{55d85d49-e513-45b7-9b27-6a2cf9d6021f}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Dependencies\GLFW">
+      <UniqueIdentifier>{51960a7f-541f-481f-9ece-4bd687540557}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Dependencies\GLFW\glad">
+      <UniqueIdentifier>{0c356ea7-4fc2-4714-8595-3f7f59c9e24d}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Dependencies\OpenAL-Soft">
+      <UniqueIdentifier>{ceb7bd54-77ca-4314-8e4e-8ddc3d22bc46}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Core\Types\Objects">
+      <UniqueIdentifier>{ef19250b-7d5c-4731-b29d-f950b34d5ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Files\Core\Types\Objects">
+      <UniqueIdentifier>{67aeeeb0-e3c6-4718-b0de-1d7d9ae87b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine Files\Scene">
+      <UniqueIdentifier>{f368eb4d-ded5-4612-934a-6bf91414541d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\log.cpp">
+      <Filter>Source Files\Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\graphics\backend.cpp">
+      <Filter>Source Files\Engine Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\GLFW\getopt.c">
+      <Filter>Source Files\Dependencies\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory\sync.cpp">
+      <Filter>Source Files\Engine Files\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory\thread.cpp">
+      <Filter>Source Files\Engine Files\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="core\graphics\camera.cpp">
+      <Filter>Source Files\Engine Files\Core\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ecs\components\transform.cpp">
+      <Filter>Source Files\Engine Files\Core\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="core\config\iniReader.cpp">
+      <Filter>Source Files\Engine Files\Core\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory\arena.cpp">
+      <Filter>Source Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\ini.c">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\tinycthread.c">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory\pool.cpp">
+      <Filter>Source Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="core\types\objects\LaManchaObject.cpp">
+      <Filter>Source Files\Engine Files\Core\Types\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="core\pch.cpp">
+      <Filter>Source Files\Engine Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory\heap.cpp">
+      <Filter>Source Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory\garbageCollector.cpp">
+      <Filter>Source Files\Engine Files\Core\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="core\memory\ioArena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\time.h">
+      <Filter>Header Files\Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\log.h">
+      <Filter>Header Files\Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graphics\backend.h">
+      <Filter>Header Files\Engine Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graphics\renderer.h">
+      <Filter>Header Files\Engine Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ecs\entity.h">
+      <Filter>Header Files\Engine Files\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ecs\component.h">
+      <Filter>Header Files\Engine Files\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ecs\system.h">
+      <Filter>Header Files\Engine Files\Core\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\GLFW\getopt.h">
+      <Filter>Header Files\Dependencies\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\GLFW\glfw3.h">
+      <Filter>Header Files\Dependencies\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\GLFW\glfw3native.h">
+      <Filter>Header Files\Dependencies\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\GLFW\glad\gl.h">
+      <Filter>Header Files\Dependencies\GLFW\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\GLFW\glad\gles2.h">
+      <Filter>Header Files\Dependencies\GLFW\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\GLFW\glad\vulkan.h">
+      <Filter>Header Files\Dependencies\GLFW\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\sync.h">
+      <Filter>Header Files\Engine Files\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\thread.h">
+      <Filter>Header Files\Engine Files\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\LaManchaMath.h">
+      <Filter>Header Files\Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\vec.h">
+      <Filter>Header Files\Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\quat.h">
+      <Filter>Header Files\Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\mat.h">
+      <Filter>Header Files\Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\geometry.h">
+      <Filter>Header Files\Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\interp.h">
+      <Filter>Header Files\Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math\mathCore.h">
+      <Filter>Header Files\Engine Files\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="core\pch.h">
+      <Filter>Header Files\Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\color.h">
+      <Filter>Header Files\Engine Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="core\platform\platform.h">
+      <Filter>Header Files\Engine Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\specilizedTypesLM.h">
+      <Filter>Header Files\Engine Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\string.h">
+      <Filter>Header Files\Engine Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ecs\components\transform.h">
+      <Filter>Header Files\Engine Files\Core\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\arena.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\frame.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\permanent.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\pool.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\garbageCollector.h">
+      <Filter>Header Files\Engine Files\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graphics\camera.h">
+      <Filter>Header Files\Engine Files\Core\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="core\config\iniReader.h">
+      <Filter>Header Files\Engine Files\Core\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\pair.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\array.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\sparseSet.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\list\arrayList.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\list\stack.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\list\queue.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hash.h">
+      <Filter>Header Files\Engine Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\ini.h">
+      <Filter>Header Files\Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="core\config\configSetUp.h">
+      <Filter>Header Files\Engine Files\Core\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\nanobench.h">
+      <Filter>Header Files\Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\hashmap.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\hashset.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\dataStructures\list\ringBuffer.h">
+      <Filter>Header Files\Engine Files\Core\Types\Data Structures\List</Filter>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\introsort.h">
+      <Filter>Header Files\Engine Files\Core\Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\heapsort.h">
+      <Filter>Header Files\Engine Files\Core\Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\insertionsort.h">
+      <Filter>Header Files\Engine Files\Core\Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\quicksort.h">
+      <Filter>Header Files\Engine Files\Core\Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\sortUtilities.h">
+      <Filter>Header Files\Engine Files\Core\Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="core\algorithms\sort\sort.h">
+      <Filter>Header Files\Engine Files\Core\Algorithms\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="core\config\buildConfigVars.h">
+      <Filter>Header Files\Engine Files\Core\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="core\config\engineConfigVars.h">
+      <Filter>Header Files\Engine Files\Core\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="core\config\generalConfigVars.h">
+      <Filter>Header Files\Engine Files\Core\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\doctest.h">
+      <Filter>Header Files\Dependencies\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\tinycthread.h">
+      <Filter>Header Files\Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\scratchpad.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\levelArena.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\construct.h">
+      <Filter>Header Files\Engine Files\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\lifetimes.h">
+      <Filter>Header Files\Engine Files\Core\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\objects\LaManchaObject.h">
+      <Filter>Header Files\Engine Files\Core\Types\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\objects\actorObject.h">
+      <Filter>Header Files\Engine Files\Core\Types\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\objects\uiObject.h">
+      <Filter>Header Files\Engine Files\Core\Types\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\objects\managerObject.h">
+      <Filter>Header Files\Engine Files\Core\Types\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types\handle.h">
+      <Filter>Header Files\Engine Files\Core\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\heap.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory\ioArena.h">
+      <Filter>Header Files\Engine Files\Core\Memory\Allocators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="deps\dependencies.ini">
+      <Filter>Resource Files\Dependencies</Filter>
+    </None>
+    <None Include="core\config\game.ini">
+      <Filter>Resource Files\Dependencies</Filter>
+    </None>
+  </ItemGroup>
+</Project>
